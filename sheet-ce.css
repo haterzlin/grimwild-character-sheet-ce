@@ -719,6 +719,27 @@ ul {
   padding: var(--title-pad-y) var(--title-pad-x);
 }
 
+.cleric-path-heading {
+  align-items: center;
+  gap: 3mm;
+}
+
+.path-header-field {
+  display: flex;
+  align-items: center;
+  gap: 1.8mm;
+  margin-left: auto;
+}
+
+.path-header-field > span {
+  display: inline-block;
+  width: 42mm;
+  height: 8.2mm;
+  border: 0px solid var(--line);
+  border-radius: 3mm;
+  background: var(--page-bg);
+}
+
 .subsection {
   border: 1px solid var(--line);
   flex: 1;
@@ -753,6 +774,10 @@ ul {
   background: var(--panel-fill);
 }
 
+.core-talent-body-cleric {
+  flex-direction: column;
+}
+
 .core-talent-copy,
 .talent-copy {
   font-size: 10pt;
@@ -761,7 +786,7 @@ ul {
 
 .core-talent-copy {
   flex: 1;
-  padding: 3mm 3.5mm 3.5mm;
+  padding: 3mm 3.5mm 0.5mm;
 }
 
 .core-talent-copy > p + p {
@@ -851,6 +876,40 @@ ul {
   opacity: 0.45;
 }
 
+.rite-trackers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2mm;
+  padding: 0 1.8mm 2.2mm;
+}
+
+.rite-tracker {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  column-gap: 1.4mm;
+}
+
+.rite-box {
+  width: 9mm;
+  height: 9mm;
+  border: 2px solid var(--line);
+  border-radius: 2mm;
+  background: var(--page-bg);
+}
+
+.rite-tracker > p {
+  font-size: 10pt;
+  font-weight: 700;
+  font-variant-caps: small-caps;
+}
+
+.rite-line {
+  height: 10mm;
+  border-radius: 0 0 2mm 2mm;
+  background: var(--page-bg);
+}
+
 .path-talents-body {
   flex-direction: column;
   background: var(--panel-fill);
@@ -909,6 +968,10 @@ ul {
   border-radius: 50%;
 }
 
+.talent-tag-bless::before {
+  border-radius: 1.5mm;
+}
+
 .talent-tag-insp {
   flex-direction: column;
   align-items: center;
@@ -935,6 +998,25 @@ ul {
   height: 4.8mm;
   border: 2px solid var(--line);
   border-radius: 1.5mm;
+  background: var(--page-bg);
+}
+
+.talent-tag-ironwill {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2mm;
+}
+
+.talent-tag-ironwill::before {
+  display: none;
+}
+
+.talent-tag-single-box {
+  width: 9mm;
+  height: 9mm;
+  border: 2px solid var(--line);
+  border-radius: 2mm;
   background: var(--page-bg);
 }
 
