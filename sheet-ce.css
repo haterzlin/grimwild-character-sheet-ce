@@ -870,6 +870,14 @@ ul {
   padding-top: 11mm;
 }
 
+.tracker-sidebar-mastery {
+  padding-top: 6.5mm;
+}
+
+.tracker-sidebar-monk {
+  padding-top: 6mm;
+}
+
 .tracker-stack-boxes {
   justify-items: center;
 }
@@ -884,6 +892,62 @@ ul {
 
 .tracker-box-muted {
   opacity: 0.45;
+}
+
+.mastery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 6.2mm);
+  justify-content: center;
+  gap: 1.8mm;
+  margin-top: 2.2mm;
+}
+
+.mastery-grid > span {
+  width: 6.2mm;
+  height: 6.2mm;
+  border: 2px solid var(--line);
+  border-radius: 2.2mm;
+  background: var(--page-bg);
+}
+
+.monk-tracker-group + .monk-tracker-group {
+  margin-top: 6mm;
+}
+
+.monk-flow {
+  display: grid;
+  gap: 2.2mm;
+  margin-top: 2mm;
+}
+
+.monk-flow > .tracker-row {
+  grid-template-columns: repeat(4, 1fr);
+  height: 5.8mm;
+}
+
+.monk-flow-bonus {
+  width: 50%;
+  justify-self: center;
+}
+
+.monk-flow > .monk-flow-bonus {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.monk-interrupt {
+  display: grid;
+  grid-template-columns: repeat(3, 6.2mm);
+  justify-content: center;
+  gap: 1.8mm;
+  margin-top: 2mm;
+}
+
+.monk-interrupt > span {
+  width: 6.2mm;
+  height: 6.2mm;
+  border: 2px solid var(--line);
+  border-radius: 2.2mm;
+  background: var(--page-bg);
 }
 
 .rite-trackers {
@@ -1036,6 +1100,40 @@ ul {
 
 .talent-tag-potions::before {
   display: none;
+}
+
+.talent-tag-spells {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1.2mm;
+}
+
+.talent-tag-spells::before,
+.talent-tag-bulwark::before {
+  display: none;
+}
+
+.spell-row {
+  display: flex;
+  align-items: center;
+  gap: 1.4mm;
+  white-space: nowrap;
+}
+
+.spell-box {
+  width: 4.8mm;
+  height: 4.8mm;
+  border: 2px solid var(--line);
+  border-radius: 1.5mm;
+  background: var(--page-bg);
+}
+
+.talent-tag-bulwark {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2mm;
 }
 
 .potion-row {
