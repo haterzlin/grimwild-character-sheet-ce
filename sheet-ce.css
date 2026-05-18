@@ -755,6 +755,12 @@ ul {
   padding: var(--title-pad-y) var(--subsection-title-pad-x);
 }
 
+.core-talents > .panel-title,
+.path-talents > .panel-title {
+  padding-top: 1.2mm;
+  padding-bottom: 1.2mm;
+}
+
 .core-talents {
   flex: 1 1 0;
 }
@@ -857,6 +863,10 @@ ul {
 }
 
 .tracker-sidebar-boxes {
+  padding-top: 11mm;
+}
+
+.tracker-sidebar-single {
   padding-top: 11mm;
 }
 
@@ -994,6 +1004,74 @@ ul {
 }
 
 .talent-tag-double-box > span {
+  width: 4.8mm;
+  height: 4.8mm;
+  border: 2px solid var(--line);
+  border-radius: 1.5mm;
+  background: var(--page-bg);
+}
+
+.talent-tag-omens {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2mm;
+}
+
+.talent-tag-omens::before {
+  display: none;
+}
+
+.talent-tag-omens .talent-tag-double-box > span {
+  width: 6.2mm;
+  height: 6.2mm;
+}
+
+.talent-tag-potions {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1.2mm;
+}
+
+.talent-tag-potions::before {
+  display: none;
+}
+
+.potion-row {
+  display: flex;
+  align-items: center;
+  gap: 1.8mm;
+  white-space: nowrap;
+}
+
+.potion-row > span:first-child {
+  width: 4.8mm;
+  height: 4.8mm;
+  border: 2px solid var(--line);
+  border-radius: 1.5mm;
+  background: var(--page-bg);
+}
+
+.talent-tag-elements {
+  justify-content: center;
+}
+
+.talent-tag-elements::before {
+  display: none;
+}
+
+.element-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  gap: 1.2mm 1.8mm;
+  font-size: 10pt;
+  font-weight: 700;
+  font-variant-caps: small-caps;
+}
+
+.element-box {
   width: 4.8mm;
   height: 4.8mm;
   border: 2px solid var(--line);
