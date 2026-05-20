@@ -878,6 +878,10 @@ ul {
   padding-top: 6mm;
 }
 
+.tracker-sidebar-paladin {
+  padding-top: 7mm;
+}
+
 .tracker-stack-boxes {
   justify-items: center;
 }
@@ -950,6 +954,23 @@ ul {
   background: var(--page-bg);
 }
 
+.smite-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 7mm);
+  justify-content: center;
+  gap: 2.2mm 2.6mm;
+  margin-top: 2.4mm;
+}
+
+.smite-grid > span {
+  width: 5.8mm;
+  height: 5.8mm;
+  border: 2px solid var(--line);
+  border-radius: 1.2mm;
+  background: var(--page-bg);
+  transform: rotate(45deg);
+}
+
 .rite-trackers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -999,6 +1020,18 @@ ul {
 
 .talent-entry + .talent-entry {
   border-top: 1px solid rgba(34, 34, 34, 0.22);
+}
+
+.talent-entry-compact {
+  gap: 1.8mm;
+  padding-top: 1mm;
+  padding-bottom: 1mm;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.talent-entry-compact .talent-copy {
+  line-height: 1.22;
 }
 
 .talent-picker {
@@ -1194,6 +1227,71 @@ ul {
   border: 2px solid var(--line);
   border-radius: 2mm;
   background: var(--page-bg);
+}
+
+.paladin-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1.08fr;
+  gap: 2.6mm;
+  padding: 0 3.2mm 2mm;
+}
+
+.paladin-bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.paladin-bottom-left .talent-entry + .talent-entry {
+  border-top: 1px solid rgba(34, 34, 34, 0.22);
+}
+
+.tenets-panel {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3mm;
+  background: var(--page-bg);
+  overflow: hidden;
+}
+
+.tenets-header {
+  padding: 1.2mm 2mm 0.8mm;
+  font-size: 8.5pt;
+  line-height: 1.2;
+}
+
+.tenets-header strong {
+  font-variant-caps: small-caps;
+}
+
+.tenets-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.tenets-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 1.8mm;
+  padding: 1.2mm 1.8mm;
+}
+
+.tenets-row + .tenets-row {
+  border-top: 1px solid rgba(34, 34, 34, 0.22);
+}
+
+.tenets-check {
+  width: 5mm;
+  height: 5mm;
+  border: 2px solid var(--line);
+  border-radius: 1.3mm;
+  background: var(--page-bg);
+}
+
+.tenets-line {
+  min-height: 9mm;
 }
 
 .talent-tag-push::before,
