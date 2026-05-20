@@ -882,6 +882,10 @@ ul {
   padding-top: 7mm;
 }
 
+.tracker-sidebar-ranger {
+  padding-top: 9mm;
+}
+
 .tracker-stack-boxes {
   justify-items: center;
 }
@@ -971,6 +975,22 @@ ul {
   transform: rotate(45deg);
 }
 
+.ranger-quarry {
+  display: grid;
+  grid-template-columns: repeat(3, 6.2mm);
+  justify-content: center;
+  gap: 1.8mm;
+  margin-top: 2.2mm;
+}
+
+.ranger-quarry > span {
+  width: 6.2mm;
+  height: 6.2mm;
+  border: 2px solid var(--line);
+  border-radius: 2.2mm;
+  background: var(--page-bg);
+}
+
 .rite-trackers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1014,8 +1034,8 @@ ul {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: start;
-  gap: 2.4mm;
-  padding: 2mm 3.2mm;
+  gap: 2mm;
+  padding: 1.4mm 2.6mm;
 }
 
 .talent-entry + .talent-entry {
@@ -1045,6 +1065,7 @@ ul {
 
 .talent-copy {
   min-width: 0;
+  line-height: 1.28;
 }
 
 .talent-tag {
@@ -1145,6 +1166,24 @@ ul {
 .talent-tag-spells::before,
 .talent-tag-bulwark::before {
   display: none;
+}
+
+.talent-tag-companion {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1.2mm;
+}
+
+.talent-tag-companion::before {
+  display: none;
+}
+
+.companion-row {
+  display: flex;
+  align-items: center;
+  gap: 1.4mm;
+  white-space: nowrap;
 }
 
 .spell-row {
