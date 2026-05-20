@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Fighter Sheet</title>
-  <link rel="stylesheet" href="sheet-ce.css">
+  <title>Grimwild CE Bard Sheet</title>
+  <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Fighter character sheet">
+  <main class="workspace" aria-label="Grimwild Community Edition Bard character sheet">
     <article class="page" aria-label="Character page">
       <header class="page-header">
         <div class="logo-block" aria-label="Grimwild Community Edition logo">
@@ -186,7 +186,7 @@
     <article class="page page-right" aria-label="Path page">
       <section class="panel path-panel">
         <header class="section-heading">
-          <p class="panel-title">Fighter</p>
+          <p class="panel-title">Bard</p>
           <p class="section-meta">Trackers</p>
         </header>
 
@@ -194,17 +194,25 @@
           <p class="panel-title">Core Talent</p>
           <div class="core-talent-body">
             <div class="core-talent-copy">
-              <p><span class="talent-lead"></span><strong>Weapon Mastery:</strong> Choose a fighting style you have mastered: brawling - dual-wielding - one-handed - ranged - two-handed. Each scene, you have 2 mastery. When you fight, defend, or assist in your style, take +1d, and on a messy or perfect, you can spend mastery to add a critical effect.</p>
-              <p>[Growth: 3 levels / +1 Mastery die per scene]</p>
-              <p><strong>Example Maneuvers:</strong> blind - disarm - knockdown - pin down - pull - push - sunder - unnerve.</p>
+              <p><span class="talent-lead"></span><strong>Inspiration:</strong> Each session, you have 3 inspiration you can use to magically bolster the spirits of those around you, and influence your foes.</p>
+              <p>You can spend inspiration to: increase an ally's die result by 1 (3&#8594;4) - calm or intensify a vex response - clear rattled from an ally.</p>
+              <p>You can also spend inspiration and roll Presence to: pull off a potent feat of emotional influence - interrupt an impact move.</p>
+              <p>You can choose to instead regain 1 inspiration when you would take spark.</p>
+              <p>[Growth: 2 levels / +1 inspiration per session.]</p>
             </div>
-            <aside class="tracker-sidebar tracker-sidebar-mastery">
-              <p class="tracker-label">Mastery</p>
-              <div class="mastery-grid" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span class="tracker-box-muted"></span>
-                <span class="tracker-box-muted"></span>
+            <aside class="tracker-sidebar">
+              <p class="tracker-label">Inspiration</p>
+              <div class="tracker-stack" aria-hidden="true">
+                <div class="tracker-row">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="tracker-row tracker-row-muted">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
               </div>
             </aside>
           </div>
@@ -216,63 +224,48 @@
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Arcane Training:</strong> You have spellcasting as the Spellcraft talent. You can cast 2 spells and 1 potent spell per session. You know 3 spell theorems, created with the Spell Crucible, and can learn new spells from scrolls.</p>
+                <p><strong>Bardic Lore:</strong> You gain any 3 wises and 1 extra story per session. You take +1d on any story rolls pertaining to what you know or story details you add.</p>
               </div>
-              <div class="talent-tag talent-tag-spells">
-                <div class="spell-row">
-                  <span class="spell-box"></span>
-                  <span class="spell-box"></span>
-                  <span>Spell</span>
-                </div>
-                <div class="spell-row">
-                  <span class="spell-box"></span>
-                  <span>Potent</span>
-                </div>
+              <div class="talent-tag talent-tag-story">Story</div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Dynamic Entrance:</strong> You can always appear in a scene exactly where and when you want, limited only by your physical capabilities. Make a 3d story roll to describe your entrance and its effect.</p>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Bulwark:</strong> Each session, you have a 2d Bulwark resource pool from armor or other defenses. When you take physical harm, you can roll the pool to ignore the damage.</p>
-              </div>
-              <div class="talent-tag talent-tag-bulwark">
-                <span class="talent-tag-label">Bulwark</span>
-                <span class="talent-tag-single-box" aria-hidden="true"></span>
+                <p><strong>Folk Hero:</strong> You may spend inspiration as spark. If your spark die comes up as a 6, you regain it. Tales of your heroism are told throughout the area; track their spread with campaign pools.</p>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Control:</strong> You can push yourself to declare a zone that enemies cannot cross without dealing with you. If they attempt to move past you, you can interrupt them. On a perfect, take spark.</p>
+                <p><strong>Forked Tongue:</strong> When given time, you can tell potent lies. You can push yourself to do it on the spot.</p>
               </div>
               <div class="talent-tag talent-tag-push">Push</div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Got Your Back:</strong> You can push yourself to assist an ally after they roll a grim. The ally can also roll 1d. On a perfect, you both take spark.</p>
-              </div>
-              <div class="talent-tag talent-tag-push">Push</div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Measured Tones:</strong> When you speak in measured tones, people always stop and listen - you can declare low stakes if desired. Unless completely surprised, you can push yourself to interrupt an impact move initiating aggression. If you change their mind, take spark.</p>
-              </div>
-              <div class="talent-tag talent-tag-push">Push</div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Swift Recovery:</strong> On a perfect roll with an unmarked stat, clear a mark on another stat.</p>
+                <p><strong>Friendly Face:</strong> In any new town or district of a city you go to, you can always: know someone useful - quickly make a friend - be recognized by a fan. They'll gladly do you a reasonable favor. Take spark if you promise to pay them back.</p>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Tactician:</strong> During an intense action sequence, you can push yourself to tag 3 scene elements right away, and 1 later in the sequence. When an ally interacts with a tagged element, you assist without risk on the roll. If no roll is needed, they take spark.</p>
+                <p><strong>Jack of All Trades:</strong> You take +1d on montage rolls, and gain 1 extra story per session. You can spend story to gain a wise until the session ends. Describe how you got this experience.</p>
               </div>
-              <div class="talent-tag talent-tag-push">Push</div>
+              <div class="talent-tag talent-tag-story">Story</div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Wordplay:</strong> On a perfect defense roll when the situation allows for verbal quips, you make them: embarrass themself - let a secret slip - focus on or lose track of you. Once per session, you can goad the GM into spending suspense on conversation.</p>
+              </div>
+              <div class="talent-tag talent-tag-goad">Goad</div>
             </article>
           </div>
         </section>

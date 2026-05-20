@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Adventurer Sheet</title>
-  <link rel="stylesheet" href="sheet-ce.css">
+  <title>Grimwild CE Paladin Sheet</title>
+  <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Adventurer character sheet">
+  <main class="workspace" aria-label="Grimwild Community Edition Paladin character sheet">
     <article class="page" aria-label="Character page">
       <header class="page-header">
         <div class="logo-block" aria-label="Grimwild Community Edition logo">
@@ -186,16 +186,108 @@
     <article class="page page-right" aria-label="Path page">
       <section class="panel path-panel">
         <header class="section-heading">
-          <p class="panel-title">Adventurer</p>
+          <p class="panel-title">Paladin</p>
           <p class="section-meta">Trackers</p>
         </header>
 
         <section class="subsection core-talents">
           <p class="panel-title">Core Talent</p>
+          <div class="core-talent-body">
+            <div class="core-talent-copy">
+              <p><span class="talent-lead"></span><strong>Oathsworn:</strong> You draw power from your three tenets. When you add a thorn from bloodied, rattled, or desperate, you also take +1d. Each session, you have 3 smite. When acting with total conviction, spend it 1-for-1 to drop dice from a task pool after rolling it.</p>
+              <p><strong>Affirmation:</strong> Before each session, state your tenets and discuss how they came up last session. Give spark to one player who joined a scene involving your tenets. Take 1 less smite for each tenet in violation.</p>
+              <p>[GROWTH: 2 levels / +1 smite per session]</p>
+            </div>
+            <aside class="tracker-sidebar tracker-sidebar-paladin">
+              <p class="tracker-label">Smite</p>
+              <div class="smite-grid" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="tracker-box-muted"></span>
+                <span class="tracker-box-muted"></span>
+                <span class="tracker-box-muted"></span>
+              </div>
+            </aside>
+          </div>
         </section>
 
         <section class="subsection path-talents">
           <p class="panel-title">Path Talents</p>
+          <div class="path-talents-body">
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Aegis:</strong> You take +1d when making a defense roll to protect yourself from physical harm. On a perfect, you can also: keep their attention on you - rekindle hope in an ally - inspire action in a bystander.</p>
+              </div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Authority:</strong> Your presence fills the air with authority. The GM judges an NPC's response, or you can spend story to set it: admiration - obedience - respect - defiance. You can push yourself to pull off a potent feat of righteous command.</p>
+              </div>
+              <div class="talent-tag talent-tag-push">Push</div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Challenge:</strong> Push yourself to challenge a foe, taking +1d on all rolls against them, but give them 1 suspense. If they do anything besides confront you, you can interrupt it. The challenge ends if an ally engages your foe, or your interrupt result is less than a perfect.</p>
+              </div>
+              <div class="talent-tag talent-tag-push">Push</div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Dauntless:</strong> Take spark when your roll is cut. Take +1d on story rolls if dropped. On a perfect, ignore it.</p>
+              </div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Iron Will:</strong> You have spellcasting as the Channel Divinity talent. Detail your god and choose 1 rite, a 4d power pool (per session). You can drop 1d and roll the pool to cast a potent spell.</p>
+              </div>
+              <div class="talent-tag talent-tag-ironwill">
+                <span class="talent-tag-single-box" aria-hidden="true"></span>
+              </div>
+            </article>
+
+            <div class="paladin-bottom">
+              <div class="paladin-bottom-left">
+                <article class="talent-entry talent-entry-compact">
+                  <div class="talent-picker" aria-hidden="true"></div>
+                  <div class="talent-copy">
+                    <p><strong>Guardian:</strong> Take +1d when you assist on a defense roll. You can also make a defense roll for an ally when they would be affected by an impact move, or push yourself to defend multiple nearby allies from a single attack. (no free activation)</p>
+                  </div>
+                </article>
+                <article class="talent-entry talent-entry-compact">
+                  <div class="talent-picker" aria-hidden="true"></div>
+                  <div class="talent-copy">
+                    <p><strong>Rebuke:</strong> When the GM spends suspense to prompt an impact move, you take +1d on any follow-up action against the source. On a critical, take spark.</p>
+                  </div>
+                </article>
+              </div>
+
+              <section class="tenets-panel">
+                <header class="tenets-header">
+                  <p><strong>Tenets:</strong> mark if in violation. Slash for light, fill for heavy.</p>
+                </header>
+                <div class="tenets-body" aria-hidden="true">
+                  <div class="tenets-row">
+                    <span class="tenets-check"></span>
+                    <div class="tenets-line"></div>
+                  </div>
+                  <div class="tenets-row">
+                    <span class="tenets-check"></span>
+                    <div class="tenets-line"></div>
+                  </div>
+                  <div class="tenets-row">
+                    <span class="tenets-check"></span>
+                    <div class="tenets-line"></div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
         </section>
       </section>
 

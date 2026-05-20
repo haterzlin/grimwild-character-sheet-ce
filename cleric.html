@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Paladin Sheet</title>
-  <link rel="stylesheet" href="sheet-ce.css">
+  <title>Grimwild CE Cleric Sheet</title>
+  <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Paladin character sheet">
+  <main class="workspace" aria-label="Grimwild Community Edition Cleric character sheet">
     <article class="page" aria-label="Character page">
       <header class="page-header">
         <div class="logo-block" aria-label="Grimwild Community Edition logo">
@@ -185,30 +185,37 @@
 
     <article class="page page-right" aria-label="Path page">
       <section class="panel path-panel">
-        <header class="section-heading">
-          <p class="panel-title">Paladin</p>
-          <p class="section-meta">Trackers</p>
+        <header class="section-heading cleric-path-heading">
+          <p class="panel-title">Cleric</p>
+          <div class="path-header-field">
+            <p class="section-meta">Epithet</p>
+            <span aria-hidden="true"></span>
+          </div>
         </header>
 
         <section class="subsection core-talents">
           <p class="panel-title">Core Talent</p>
-          <div class="core-talent-body">
+          <div class="core-talent-body core-talent-body-cleric">
             <div class="core-talent-copy">
-              <p><span class="talent-lead"></span><strong>Oathsworn:</strong> You draw power from your three tenets. When you add a thorn from bloodied, rattled, or desperate, you also take +1d. Each session, you have 3 smite. When acting with total conviction, spend it 1-for-1 to drop dice from a task pool after rolling it.</p>
-              <p><strong>Affirmation:</strong> Before each session, state your tenets and discuss how they came up last session. Give spark to one player who joined a scene involving your tenets. Take 1 less smite for each tenet in violation.</p>
-              <p>[GROWTH: 2 levels / +1 smite per session]</p>
+              <p><span class="talent-lead"></span><strong>Channel Divinity:</strong> You can call upon your deity to channel their magic. You roll a rite pool to cast spells, and that pool and your god's epithet - their domain serve as touchstones. Your major rite is a 6d power pool, and your minor rites are 4d power pools. They replenish each session. You can drop 1d and roll to cast a potent spell. Spells without risk require no roll, unless potent. [Growth: 3 levels / +1d each rite power pool.]</p>
             </div>
-            <aside class="tracker-sidebar tracker-sidebar-paladin">
-              <p class="tracker-label">Smite</p>
-              <div class="smite-grid" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span class="tracker-box-muted"></span>
-                <span class="tracker-box-muted"></span>
-                <span class="tracker-box-muted"></span>
+            <div class="rite-trackers" aria-hidden="true">
+              <div class="rite-tracker">
+                <div class="rite-box"></div>
+                <p>Major</p>
+                <div class="rite-line"></div>
               </div>
-            </aside>
+              <div class="rite-tracker">
+                <div class="rite-box"></div>
+                <p>Minor</p>
+                <div class="rite-line"></div>
+              </div>
+              <div class="rite-tracker">
+                <div class="rite-box"></div>
+                <p>Minor</p>
+                <div class="rite-line"></div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -218,75 +225,51 @@
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Aegis:</strong> You take +1d when making a defense roll to protect yourself from physical harm. On a perfect, you can also: keep their attention on you - rekindle hope in an ally - inspire action in a bystander.</p>
+                <p><strong>Blessed:</strong> Once per session, you can re-roll a roll you just made as a greater power attempts to intervene. The re-roll is made without any thorns on it. On a perfect, take spark.</p>
+              </div>
+              <div class="talent-tag talent-tag-bless">Bless</div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Devout:</strong> Intelligent creatures recognize you as a person of deep honesty and only your most hated enemies would treat you with a lack of respect or doubt your word. You are never seriously injured or killed by an enemy, unless they have no choice. This aura is upheld by your unwavering commitment - you must push yourself to act in bad faith. (No free activation)</p>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Authority:</strong> Your presence fills the air with authority. The GM judges an NPC's response, or you can spend story to set it: admiration - obedience - respect - defiance. You can push yourself to pull off a potent feat of righteous command.</p>
-              </div>
-              <div class="talent-tag talent-tag-push">Push</div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Challenge:</strong> Push yourself to challenge a foe, taking +1d on all rolls against them, but give them 1 suspense. If they do anything besides confront you, you can interrupt it. The challenge ends if an ally engages your foe, or your interrupt result is less than a perfect.</p>
-              </div>
-              <div class="talent-tag talent-tag-push">Push</div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Dauntless:</strong> Take spark when your roll is cut. Take +1d on story rolls if dropped. On a perfect, ignore it.</p>
+                <p><strong>Healer:</strong> You take +1d when you heal someone, with magic or treatment. On a critical, both of you take spark. One time only, you can bring back the recently dead. Common sense takes precedent.</p>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Iron Will:</strong> You have spellcasting as the Channel Divinity talent. Detail your god and choose 1 rite, a 4d power pool (per session). You can drop 1d and roll the pool to cast a potent spell.</p>
+                <p><strong>Iron Will:</strong> Each session, you have a 3d Iron Will resource pool. When you get rattled or take vex, roll the pool. If dice remain, ignore the damage. If the situation allows for it, you can also lash out at the cause or a bystander and: instill dread in their heart - sow doubt in their mind.</p>
               </div>
               <div class="talent-tag talent-tag-ironwill">
+                <span class="talent-tag-label">Iron Will</span>
                 <span class="talent-tag-single-box" aria-hidden="true"></span>
               </div>
             </article>
-
-            <div class="paladin-bottom">
-              <div class="paladin-bottom-left">
-                <article class="talent-entry talent-entry-compact">
-                  <div class="talent-picker" aria-hidden="true"></div>
-                  <div class="talent-copy">
-                    <p><strong>Guardian:</strong> Take +1d when you assist on a defense roll. You can also make a defense roll for an ally when they would be affected by an impact move, or push yourself to defend multiple nearby allies from a single attack. (no free activation)</p>
-                  </div>
-                </article>
-                <article class="talent-entry talent-entry-compact">
-                  <div class="talent-picker" aria-hidden="true"></div>
-                  <div class="talent-copy">
-                    <p><strong>Rebuke:</strong> When the GM spends suspense to prompt an impact move, you take +1d on any follow-up action against the source. On a critical, take spark.</p>
-                  </div>
-                </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Rings False:</strong> You always know when someone is lying, though not necessarily the truth. You take +1d on a follow-up if you reveal you know they're lying.</p>
               </div>
-
-              <section class="tenets-panel">
-                <header class="tenets-header">
-                  <p><strong>Tenets:</strong> mark if in violation. Slash for light, fill for heavy.</p>
-                </header>
-                <div class="tenets-body" aria-hidden="true">
-                  <div class="tenets-row">
-                    <span class="tenets-check"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                  <div class="tenets-row">
-                    <span class="tenets-check"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                  <div class="tenets-row">
-                    <span class="tenets-check"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                </div>
-              </section>
-            </div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Sermons:</strong> When given time, you can pull off a potent feat of persuasion in the name of your beliefs, like commanding a crowd to bring the duke for judgment or showing the goblins the glory of your god. You can also push yourself to do it on the spot. One time only, you can make this a ritual-level effect.</p>
+              </div>
+              <div class="talent-tag talent-tag-push">Push</div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Shepherd:</strong> When you assist an ally on a defense roll that would leave them rattled or with vex, you can invoke your bond to take +1d on the roll. On a perfect, you both take spark.</p>
+              </div>
+            </article>
           </div>
         </section>
       </section>

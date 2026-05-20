@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Ranger Sheet</title>
-  <link rel="stylesheet" href="sheet-ce.css">
+  <title>Grimwild CE Monk Sheet</title>
+  <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Ranger character sheet">
+  <main class="workspace" aria-label="Grimwild Community Edition Monk character sheet">
     <article class="page" aria-label="Character page">
       <header class="page-header">
         <div class="logo-block" aria-label="Grimwild Community Edition logo">
@@ -186,7 +186,7 @@
     <article class="page page-right" aria-label="Path page">
       <section class="panel path-panel">
         <header class="section-heading">
-          <p class="panel-title">Ranger</p>
+          <p class="panel-title">Monk</p>
           <p class="section-meta">Trackers</p>
         </header>
 
@@ -194,16 +194,37 @@
           <p class="panel-title">Core Talent</p>
           <div class="core-talent-body">
             <div class="core-talent-copy">
-              <p><span class="talent-lead"></span><strong>Quarry:</strong> Twice per session, you can designate a target as your Quarry - the focus of your hunt. Until the end of the session, you have a 2d Quarry pool rolled as bonus dice to act or defend against, research, or locate them by any means. When a Quarry die rolls a '6', the roll counts as a critical success overall. If it was already a critical, take spark.</p>
-              <p><strong>Prowler:</strong> You take +1d when using stealth, traversal, and traps in familiar terrain.</p>
-              <p>[GROWTH: 3 levels / +1 Quarry per session]</p>
+              <p><span class="talent-lead"></span><strong>Discipline:</strong> Never face a disadvantage due to a weapon matchup. Once per session, you can interrupt with a: philosophical point - quick reaction - stunning strike. Each scene, you have 4 flow. Spend it to:</p>
+              <ul class="core-talent-list">
+                <li>Ignore thorns from: being outnumbered - a single powerful opponent.</li>
+                <li>Attempt a fluid maneuver. Before rolling, declare you want to also: disarm them - redirect momentum - reposition you, them, or both. On a perfect or messy, it happens.</li>
+                <li>Pull off a potent feat of mystical grace, like running across water or falling harmlessly from a great height. For 1 more flow, extend this to those you're touching.</li>
+              </ul>
+              <p>[GROWTH: 3 levels / +1 free activation of frenzy per session.]</p>
             </div>
-            <aside class="tracker-sidebar tracker-sidebar-ranger">
-              <p class="tracker-label">Quarry</p>
-              <div class="ranger-quarry" aria-hidden="true">
-                <span></span>
-                <span class="tracker-box-muted"></span>
-                <span class="tracker-box-muted"></span>
+            <aside class="tracker-sidebar tracker-sidebar-monk">
+              <div class="monk-tracker-group">
+                <p class="tracker-label">Flow</p>
+                <div class="monk-flow" aria-hidden="true">
+                  <div class="tracker-row">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="tracker-row tracker-row-muted monk-flow-bonus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="monk-tracker-group">
+                <p class="tracker-label">Interrupt</p>
+                <div class="monk-interrupt" aria-hidden="true">
+                  <span></span>
+                  <span class="tracker-box-muted"></span>
+                  <span class="tracker-box-muted"></span>
+                </div>
               </div>
             </aside>
           </div>
@@ -215,58 +236,45 @@
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Animal Companion:</strong> You're accompanied by a fiercely loyal animal. Each PC adds a reciprocal bond with it. Choose 3 tricks and 2 flaws. You roll 3d for its tricks and 1d otherwise. It has only two damage boxes, marked (for any mark) and hurt (for any harm). It can always exit a scene when hurt. If lost, you can bond with a new animal.</p>
-                <p><strong>Tricks:</strong> distract - fight - guard - perform - rescue - retrieve - scout - search - track - warn.</p>
-                <p><strong>Flaws:</strong> aggressive - clumsy - grumpy - insatiable - jumpy - noisy - overprotective - scary - unruly.</p>
-              </div>
-              <div class="talent-tag talent-tag-companion">
-                <div class="companion-row">
-                  <span class="spell-box"></span>
-                  <span>Mark</span>
-                </div>
-                <div class="companion-row">
-                  <span class="spell-box"></span>
-                  <span>Hurt</span>
-                </div>
+                <p><strong>Elegant Maneuvers:</strong> With fluid actions, you surprise your foes. On a perfect when you act to only improve your position or setup an advantage, you can also: seize an opening - unnerve your foe, to roll a related task pool.</p>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Keen Senses:</strong> Your senses are twice as sharp as normal. You can pull off potent feats of tracking and can always get a hint or reveal on vigilance against living creatures.</p>
-              </div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Relentless:</strong> You can pull off potent feats of traversal and can always move at full speed, unhindered by what's in your way.</p>
-              </div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Scout Ahead:</strong> You gain 1 story per session and can spend story to flashback to scouting ahead and: sabotage something - set a trap - survey the area (ask 2 questions) - take out a danger - set up an interrupt. Make a 3d montage roll. The GM always takes suspense in place of an impact move.</p>
-              </div>
-              <div class="talent-tag talent-tag-story">Story</div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Spot Weakness:</strong> You can push yourself to declare a weakness in a foe. Describe the vulnerability and tag it with a 2d Weakness pool. When your allies target the weakness, roll the pool as bonus dice on their roll. Take spark if either Weakness die rolls a '6'.</p>
+                <p><strong>Flurry:</strong> You can push yourself to attempt two distinct physical actions at once using one stat, and taking your highest two dice as the results. You can't prompt more than one impact move from this combined action.</p>
               </div>
               <div class="talent-tag talent-tag-push">Push</div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Sharpshooter:</strong> When given time, you can pull off potent feats of ranged precision. You can push yourself to do it on the spot.</p>
+                <p><strong>Healing Hands:</strong> You can heal a bloodied ally. It clears, but you must make a Presence defense roll against being bloodied - you take their pain onto yourself and must fend it off.</p>
+              </div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Lightning Reflexes:</strong> You can always act first, unless completely surprised. You also ignore thorns on Agility defense rolls, except for those from marks, harm, and conditions.</p>
+              </div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Mind Over Matter:</strong> When you take a physical mark, you can instead choose to take a mental mark. When you clear a mark by rolling it, take spark.</p>
+              </div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Tether:</strong> Once per session, touch someone to link spirits. You can sense their feelings, speak in their mind, and know where they are. You can push yourself to: assist them without risk - take mental damage for them - teleport to them.</p>
               </div>
               <div class="talent-tag talent-tag-push">Push</div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Trophies:</strong> When you play a key part in slaying a powerful monster, you can take a trophy from it. This acts as a major expendable arcana. Use the monster's name, ability, and a function as the touchstones.</p>
+                <p><strong>There Is No Try:</strong> When putting your life or something you hold equally dear on the line, 5s count as 6s, and 4s count as 1s. This generally occurs with high risk or after being bloodied.</p>
               </div>
             </article>
           </div>

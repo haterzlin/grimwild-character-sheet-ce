@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Rogue Sheet</title>
-  <link rel="stylesheet" href="sheet-ce.css">
+  <title>Grimwild CE Ranger Sheet</title>
+  <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Rogue character sheet">
+  <main class="workspace" aria-label="Grimwild Community Edition Ranger character sheet">
     <article class="page" aria-label="Character page">
       <header class="page-header">
         <div class="logo-block" aria-label="Grimwild Community Edition logo">
@@ -186,7 +186,7 @@
     <article class="page page-right" aria-label="Path page">
       <section class="panel path-panel">
         <header class="section-heading">
-          <p class="panel-title">Rogue</p>
+          <p class="panel-title">Ranger</p>
           <p class="section-meta">Trackers</p>
         </header>
 
@@ -194,15 +194,16 @@
           <p class="panel-title">Core Talent</p>
           <div class="core-talent-body">
             <div class="core-talent-copy">
-              <p><span class="talent-lead"></span><strong>Expertise:</strong> Choose three skills below as your skill set. Take +1d when using a chosen skill. Each session, you have a 4d Competence pool to represent your focus under pressure. You can roll it as bonus dice after any of these skills.</p>
-              <p><strong>Above board:</strong> duel - evade - investigate - persuade - track - traverse.</p>
-              <p><strong>Below table:</strong> ambush - forgery and disguise - lying - sabotage - sleight of hand - stealth.</p>
-              <p>[GROWTH: 3 levels / +1d Competence per session, +1 skill]</p>
+              <p><span class="talent-lead"></span><strong>Quarry:</strong> Twice per session, you can designate a target as your Quarry - the focus of your hunt. Until the end of the session, you have a 2d Quarry pool rolled as bonus dice to act or defend against, research, or locate them by any means. When a Quarry die rolls a '6', the roll counts as a critical success overall. If it was already a critical, take spark.</p>
+              <p><strong>Prowler:</strong> You take +1d when using stealth, traversal, and traps in familiar terrain.</p>
+              <p>[GROWTH: 3 levels / +1 Quarry per session]</p>
             </div>
-            <aside class="tracker-sidebar tracker-sidebar-single">
-              <p class="tracker-label">Comp.</p>
-              <div class="tracker-stack tracker-stack-boxes" aria-hidden="true">
-                <div class="talent-tag-single-box"></div>
+            <aside class="tracker-sidebar tracker-sidebar-ranger">
+              <p class="tracker-label">Quarry</p>
+              <div class="ranger-quarry" aria-hidden="true">
+                <span></span>
+                <span class="tracker-box-muted"></span>
+                <span class="tracker-box-muted"></span>
               </div>
             </aside>
           </div>
@@ -214,55 +215,59 @@
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>According to Plan:</strong> You gain 1 story per session and can spend story to flashback, establishing how you planned for the current situation. Make a montage roll, taking +1d if it fell within your expertise. The GM must take suspense in place of an impact move.</p>
+                <p><strong>Animal Companion:</strong> You're accompanied by a fiercely loyal animal. Each PC adds a reciprocal bond with it. Choose 3 tricks and 2 flaws. You roll 3d for its tricks and 1d otherwise. It has only two damage boxes, marked (for any mark) and hurt (for any harm). It can always exit a scene when hurt. If lost, you can bond with a new animal.</p>
+                <p><strong>Tricks:</strong> distract - fight - guard - perform - rescue - retrieve - scout - search - track - warn.</p>
+                <p><strong>Flaws:</strong> aggressive - clumsy - grumpy - insatiable - jumpy - noisy - overprotective - scary - unruly.</p>
               </div>
-              <div class="talent-tag talent-tag-story">Story</div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Cunning Actions:</strong> On a perfect in an intense scene, you can keep the spotlight, even if the GM wants to spend suspense. The GM must take suspense as an impact move on your follow-up. Afterward, move the spotlight to an ally.</p>
-              </div>
-            </article>
-            <article class="talent-entry talent-entry-rogue-affinity">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Eldritch Affinity:</strong> You have spellcasting, as the Sorcery talent. You roll Presence to cast and choose 3 from magic paths and techniques. You can't cast potent spells, nor do you risk a magical twist. [Prohibited: Sorcerer]</p>
-                <div class="rogue-inset">
-                  <p>Magic Paths &amp; Techniques</p>
+              <div class="talent-tag talent-tag-companion">
+                <div class="companion-row">
+                  <span class="spell-box"></span>
+                  <span>Mark</span>
+                </div>
+                <div class="companion-row">
+                  <span class="spell-box"></span>
+                  <span>Hurt</span>
                 </div>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Lurker:</strong> On a perfect sneaking past or secretly observing sentient creatures, they: let a secret slip - give you a golden opportunity. If caught sneaking, you can push yourself to stay completely still and avoid detection, but must leave the area immediately after.</p>
+                <p><strong>Keen Senses:</strong> Your senses are twice as sharp as normal. You can pull off potent feats of tracking and can always get a hint or reveal on vigilance against living creatures.</p>
+              </div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Relentless:</strong> You can pull off potent feats of traversal and can always move at full speed, unhindered by what's in your way.</p>
+              </div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Scout Ahead:</strong> You gain 1 story per session and can spend story to flashback to scouting ahead and: sabotage something - set a trap - survey the area (ask 2 questions) - take out a danger - set up an interrupt. Make a 3d montage roll. The GM always takes suspense in place of an impact move.</p>
+              </div>
+              <div class="talent-tag talent-tag-story">Story</div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Spot Weakness:</strong> You can push yourself to declare a weakness in a foe. Describe the vulnerability and tag it with a 2d Weakness pool. When your allies target the weakness, roll the pool as bonus dice on their roll. Take spark if either Weakness die rolls a '6'.</p>
               </div>
               <div class="talent-tag talent-tag-push">Push</div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Opportunist:</strong> When someone nearby rolls defense, you take +1d on an immediate follow-up. On a critical by a nearby ally, you can push yourself to add a critical bonus.</p>
+                <p><strong>Sharpshooter:</strong> When given time, you can pull off potent feats of ranged precision. You can push yourself to do it on the spot.</p>
               </div>
               <div class="talent-tag talent-tag-push">Push</div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Poisoner:</strong> Each session, you have a 4d Poisons resource pool. You have access to the following poisons: hallucinations - knockout - memory loss - nausea - paralytic - truth serum. They each take a bit of time to work and are most effective if ingested.</p>
+                <p><strong>Trophies:</strong> When you play a key part in slaying a powerful monster, you can take a trophy from it. This acts as a major expendable arcana. Use the monster's name, ability, and a function as the touchstones.</p>
               </div>
-              <div class="talent-tag talent-tag-bulwark">
-                <span class="talent-tag-label">Poisons</span>
-                <span class="talent-tag-single-box" aria-hidden="true"></span>
-              </div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Weasel:</strong> If caught in a lie or red-handed, you can push yourself to weasel your way out - for now. Make a story roll to see if they realize their mistake later.</p>
-              </div>
-              <div class="talent-tag talent-tag-push">Push</div>
             </article>
           </div>
         </section>

@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Bard Sheet</title>
-  <link rel="stylesheet" href="sheet-ce.css">
+  <title>Grimwild CE Rogue Sheet</title>
+  <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Bard character sheet">
+  <main class="workspace" aria-label="Grimwild Community Edition Rogue character sheet">
     <article class="page" aria-label="Character page">
       <header class="page-header">
         <div class="logo-block" aria-label="Grimwild Community Edition logo">
@@ -186,7 +186,7 @@
     <article class="page page-right" aria-label="Path page">
       <section class="panel path-panel">
         <header class="section-heading">
-          <p class="panel-title">Bard</p>
+          <p class="panel-title">Rogue</p>
           <p class="section-meta">Trackers</p>
         </header>
 
@@ -194,25 +194,15 @@
           <p class="panel-title">Core Talent</p>
           <div class="core-talent-body">
             <div class="core-talent-copy">
-              <p><span class="talent-lead"></span><strong>Inspiration:</strong> Each session, you have 3 inspiration you can use to magically bolster the spirits of those around you, and influence your foes.</p>
-              <p>You can spend inspiration to: increase an ally's die result by 1 (3&#8594;4) - calm or intensify a vex response - clear rattled from an ally.</p>
-              <p>You can also spend inspiration and roll Presence to: pull off a potent feat of emotional influence - interrupt an impact move.</p>
-              <p>You can choose to instead regain 1 inspiration when you would take spark.</p>
-              <p>[Growth: 2 levels / +1 inspiration per session.]</p>
+              <p><span class="talent-lead"></span><strong>Expertise:</strong> Choose three skills below as your skill set. Take +1d when using a chosen skill. Each session, you have a 4d Competence pool to represent your focus under pressure. You can roll it as bonus dice after any of these skills.</p>
+              <p><strong>Above board:</strong> duel - evade - investigate - persuade - track - traverse.</p>
+              <p><strong>Below table:</strong> ambush - forgery and disguise - lying - sabotage - sleight of hand - stealth.</p>
+              <p>[GROWTH: 3 levels / +1d Competence per session, +1 skill]</p>
             </div>
-            <aside class="tracker-sidebar">
-              <p class="tracker-label">Inspiration</p>
-              <div class="tracker-stack" aria-hidden="true">
-                <div class="tracker-row">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="tracker-row tracker-row-muted">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
+            <aside class="tracker-sidebar tracker-sidebar-single">
+              <p class="tracker-label">Comp.</p>
+              <div class="tracker-stack tracker-stack-boxes" aria-hidden="true">
+                <div class="talent-tag-single-box"></div>
               </div>
             </aside>
           </div>
@@ -224,48 +214,55 @@
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Bardic Lore:</strong> You gain any 3 wises and 1 extra story per session. You take +1d on any story rolls pertaining to what you know or story details you add.</p>
+                <p><strong>According to Plan:</strong> You gain 1 story per session and can spend story to flashback, establishing how you planned for the current situation. Make a montage roll, taking +1d if it fell within your expertise. The GM must take suspense in place of an impact move.</p>
               </div>
               <div class="talent-tag talent-tag-story">Story</div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Dynamic Entrance:</strong> You can always appear in a scene exactly where and when you want, limited only by your physical capabilities. Make a 3d story roll to describe your entrance and its effect.</p>
+                <p><strong>Cunning Actions:</strong> On a perfect in an intense scene, you can keep the spotlight, even if the GM wants to spend suspense. The GM must take suspense as an impact move on your follow-up. Afterward, move the spotlight to an ally.</p>
+              </div>
+            </article>
+            <article class="talent-entry talent-entry-rogue-affinity">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Eldritch Affinity:</strong> You have spellcasting, as the Sorcery talent. You roll Presence to cast and choose 3 from magic paths and techniques. You can't cast potent spells, nor do you risk a magical twist. [Prohibited: Sorcerer]</p>
+                <div class="rogue-inset">
+                  <p>Magic Paths &amp; Techniques</p>
+                </div>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Folk Hero:</strong> You may spend inspiration as spark. If your spark die comes up as a 6, you regain it. Tales of your heroism are told throughout the area; track their spread with campaign pools.</p>
-              </div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Forked Tongue:</strong> When given time, you can tell potent lies. You can push yourself to do it on the spot.</p>
+                <p><strong>Lurker:</strong> On a perfect sneaking past or secretly observing sentient creatures, they: let a secret slip - give you a golden opportunity. If caught sneaking, you can push yourself to stay completely still and avoid detection, but must leave the area immediately after.</p>
               </div>
               <div class="talent-tag talent-tag-push">Push</div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Friendly Face:</strong> In any new town or district of a city you go to, you can always: know someone useful - quickly make a friend - be recognized by a fan. They'll gladly do you a reasonable favor. Take spark if you promise to pay them back.</p>
+                <p><strong>Opportunist:</strong> When someone nearby rolls defense, you take +1d on an immediate follow-up. On a critical by a nearby ally, you can push yourself to add a critical bonus.</p>
+              </div>
+              <div class="talent-tag talent-tag-push">Push</div>
+            </article>
+            <article class="talent-entry">
+              <div class="talent-picker" aria-hidden="true"></div>
+              <div class="talent-copy">
+                <p><strong>Poisoner:</strong> Each session, you have a 4d Poisons resource pool. You have access to the following poisons: hallucinations - knockout - memory loss - nausea - paralytic - truth serum. They each take a bit of time to work and are most effective if ingested.</p>
+              </div>
+              <div class="talent-tag talent-tag-bulwark">
+                <span class="talent-tag-label">Poisons</span>
+                <span class="talent-tag-single-box" aria-hidden="true"></span>
               </div>
             </article>
             <article class="talent-entry">
               <div class="talent-picker" aria-hidden="true"></div>
               <div class="talent-copy">
-                <p><strong>Jack of All Trades:</strong> You take +1d on montage rolls, and gain 1 extra story per session. You can spend story to gain a wise until the session ends. Describe how you got this experience.</p>
+                <p><strong>Weasel:</strong> If caught in a lie or red-handed, you can push yourself to weasel your way out - for now. Make a story roll to see if they realize their mistake later.</p>
               </div>
-              <div class="talent-tag talent-tag-story">Story</div>
-            </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
-                <p><strong>Wordplay:</strong> On a perfect defense roll when the situation allows for verbal quips, you make them: embarrass themself - let a secret slip - focus on or lose track of you. Once per session, you can goad the GM into spending suspense on conversation.</p>
-              </div>
-              <div class="talent-tag talent-tag-goad">Goad</div>
+              <div class="talent-tag talent-tag-push">Push</div>
             </article>
           </div>
         </section>
