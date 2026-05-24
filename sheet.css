@@ -889,6 +889,28 @@ ul {
   padding-top: 9mm;
 }
 
+.tracker-sidebar-warlock {
+  padding-top: 5.5mm;
+}
+
+.tracker-group {
+  display: grid;
+  justify-items: center;
+  gap: 1.8mm;
+}
+
+.tracker-group .talent-tag-single-box {
+  width: 12mm;
+  height: 12mm;
+}
+
+.warlock-potent-row {
+  display: grid;
+  grid-template-columns: repeat(3, 6.2mm);
+  justify-content: center;
+  gap: 1.8mm;
+}
+
 .tracker-stack-boxes {
   justify-items: center;
 }
