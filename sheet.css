@@ -893,6 +893,10 @@ ul {
   padding-top: 5.5mm;
 }
 
+.tracker-sidebar-wizard {
+  padding-top: 2.5mm;
+}
+
 .tracker-group {
   display: grid;
   justify-items: center;
@@ -909,6 +913,53 @@ ul {
   grid-template-columns: repeat(3, 6.2mm);
   justify-content: center;
   gap: 1.8mm;
+}
+
+.wizard-core-stack {
+  gap: 3.2mm;
+}
+
+.wizard-tracker-row {
+  display: grid;
+  justify-content: center;
+  gap: 0;
+  border: 2px solid var(--line);
+  border-radius: 2mm;
+  overflow: hidden;
+  background: var(--page-bg);
+}
+
+.wizard-tracker-row-four {
+  grid-template-columns: repeat(4, 1fr);
+  width: 18.8mm;
+}
+
+.wizard-tracker-row-three {
+  grid-template-columns: repeat(3, 1fr);
+  width: 14.4mm;
+}
+
+.wizard-tracker-row-two {
+  grid-template-columns: repeat(2, 1fr);
+  width: 12mm;
+}
+
+.wizard-tracker-box {
+  height: 4.8mm;
+  background: var(--page-bg);
+}
+
+.wizard-tracker-box + .wizard-tracker-box {
+  border-left: 1px solid var(--line);
+}
+
+.wizard-tracker-row:has(.wizard-tracker-box-muted) {
+  border-color: rgba(34, 34, 34, 0.35);
+}
+
+.wizard-tracker-box-muted {
+  border-left-color: rgba(34, 34, 34, 0.35);
+  background: #ececec;
 }
 
 .tracker-stack-boxes {
@@ -1295,6 +1346,10 @@ ul {
 
 .talent-tag-ironwill::before {
   display: none;
+}
+
+.talent-tag-pot::before {
+  border-radius: 1.5mm;
 }
 
 .talent-tag-single-box {
