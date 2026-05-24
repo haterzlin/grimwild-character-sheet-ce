@@ -7,27 +7,27 @@
   <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Paladin character sheet">
-    <article class="page" aria-label="Character page">
-      <header class="page-header">
-        <div class="logo-block" aria-label="Grimwild Community Edition logo">
-          <img class="logo" src="logo.webp" alt="Grimwild logo">
-          <p class="logo-edition">Community Edition</p>
+  <main class="sheet-workspace" aria-label="Grimwild Community Edition Paladin character sheet">
+    <article class="sheet-page" aria-label="Character page">
+      <header class="sheet-page-header">
+        <div class="sheet-logo-block" aria-label="Grimwild Community Edition logo">
+          <img class="sheet-logo" src="logo.webp" alt="Grimwild logo">
+          <p class="sheet-logo-edition">Community Edition</p>
         </div>
-        <div class="header-fields">
-          <section class="panel header-box">
-            <p class="header-box-label">Name</p>
-            <div class="header-box-body" aria-hidden="true"></div>
+        <div class="sheet-identity">
+          <section class="sheet-panel sheet-field">
+            <p class="sheet-field-label">Name</p>
+            <div class="sheet-field-body" aria-hidden="true"></div>
           </section>
-          <section class="panel header-box">
-            <p class="header-box-label">Distinctive Features</p>
-            <div class="header-box-body" aria-hidden="true"></div>
+          <section class="sheet-panel sheet-field">
+            <p class="sheet-field-label">Distinctive Features</p>
+            <div class="sheet-field-body" aria-hidden="true"></div>
           </section>
         </div>
       </header>
 
       <section class="left-grid">
-        <section class="panel attributes-panel">
+        <section class="sheet-panel attributes-panel">
           <div class="attributes-panel-body" aria-hidden="true">
             <div class="attributes-top">
               <div class="attribute-column">
@@ -89,10 +89,10 @@
           </div>
         </section>
 
-        <section class="panel conditions-panel">
-          <header class="section-heading">
-            <p class="panel-title">Conditions</p>
-            <p class="section-meta">+1t Related</p>
+        <section class="sheet-panel conditions-panel">
+          <header class="panel-bar">
+            <p class="panel-bar-title">Conditions</p>
+            <p class="panel-bar-meta">+1t Related</p>
           </header>
           <div>
             <div aria-hidden="true">
@@ -110,20 +110,20 @@
           </div>
         </section>
 
-        <section class="panel">
-          <p class="panel-title">Backgrounds &amp; Wises</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Backgrounds &amp; Wises</p>
         </section>
 
-        <div class="stack">
-          <section class="panel">
-            <p class="panel-title">Weapon Style</p>
+        <div class="sheet-stack">
+          <section class="sheet-panel">
+            <p class="panel-bar-title">Weapon Style</p>
           </section>
-          <section class="panel spark-panel">
-            <header class="section-heading">
-              <p class="panel-title">Spark (+1d)</p>
+          <section class="sheet-panel spark-panel">
+            <header class="panel-bar">
+              <p class="panel-bar-title">Spark (+1d)</p>
               <div class="header-checks" aria-hidden="true">
-                <span class="header-check"></span>
-                <span class="header-check"></span>
+                <span class="header-check control control--title"></span>
+                <span class="header-check control control--title"></span>
               </div>
             </header>
             <div>
@@ -139,17 +139,17 @@
           </section>
         </div>
 
-        <section class="panel">
-          <p class="panel-title">Bonds</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Bonds</p>
         </section>
 
-        <div class="stack">
-          <section class="panel story-panel">
-            <header class="section-heading">
-              <p class="panel-title">Story</p>
+        <div class="sheet-stack">
+          <section class="sheet-panel story-panel">
+            <header class="panel-bar">
+              <p class="panel-bar-title">Story</p>
               <div class="header-checks" aria-hidden="true">
-                <span class="header-check"></span>
-                <span class="header-check"></span>
+                <span class="header-check control control--title"></span>
+                <span class="header-check control control--title"></span>
               </div>
             </header>
             <div>
@@ -158,8 +158,8 @@
               <p>Doubtful details may require a story roll.</p>
             </div>
           </section>
-          <section class="panel vantage-panel">
-            <p class="panel-title">Vantage</p>
+          <section class="sheet-panel vantage-panel">
+            <p class="panel-bar-title">Vantage</p>
             <div>
               <div>
                 <p>Certain</p>
@@ -183,85 +183,85 @@
       </section>
     </article>
 
-    <article class="page page-right" aria-label="Path page">
-      <section class="panel path-panel">
-        <header class="section-heading">
-          <p class="panel-title">Paladin</p>
-          <p class="section-meta">Trackers</p>
+    <article class="sheet-page sheet-page--path" aria-label="Path page">
+      <section class="sheet-panel path-panel">
+        <header class="panel-bar">
+          <p class="panel-bar-title">Paladin</p>
+          <p class="panel-bar-meta">Trackers</p>
         </header>
 
-        <section class="subsection core-talents">
-          <p class="panel-title">Core Talent</p>
-          <div class="core-talent-body">
-            <div class="core-talent-copy">
-              <p><span class="talent-lead"></span><strong>Oathsworn:</strong> You draw power from your three tenets. When you add a thorn from bloodied, rattled, or desperate, you also take +1d. Each session, you have 3 smite. When acting with total conviction, spend it 1-for-1 to drop dice from a task pool after rolling it.</p>
+        <section class="panel-section core-talents">
+          <p class="panel-bar-title">Core Talent</p>
+          <div class="path-core-layout">
+            <div class="path-copy path-copy--core">
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Oathsworn:</strong> You draw power from your three tenets. When you add a thorn from bloodied, rattled, or desperate, you also take +1d. Each session, you have 3 smite. When acting with total conviction, spend it 1-for-1 to drop dice from a task pool after rolling it.</p>
               <p><strong>Affirmation:</strong> Before each session, state your tenets and discuss how they came up last session. Give spark to one player who joined a scene involving your tenets. Take 1 less smite for each tenet in violation.</p>
               <p>[GROWTH: 2 levels / +1 smite per session]</p>
             </div>
-            <aside class="tracker-sidebar tracker-sidebar-paladin">
+            <aside class="tracker-panel tracker-panel--top-7">
               <p class="tracker-label">Smite</p>
-              <div class="smite-grid" aria-hidden="true">
+              <div class="tracker-diamond-grid" aria-hidden="true">
                 <span></span>
                 <span></span>
                 <span></span>
-                <span class="tracker-box-muted"></span>
-                <span class="tracker-box-muted"></span>
-                <span class="tracker-box-muted"></span>
+                <span class="control control--track control--muted"></span>
+                <span class="control control--track control--muted"></span>
+                <span class="control control--track control--muted"></span>
               </div>
             </aside>
           </div>
         </section>
 
-        <section class="subsection path-talents">
-          <p class="panel-title">Path Talents</p>
-          <div class="path-talents-body">
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+        <section class="panel-section path-talents">
+          <p class="panel-bar-title">Path Talents</p>
+          <div class="talent-list">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Aegis:</strong> You take +1d when making a defense roll to protect yourself from physical harm. On a perfect, you can also: keep their attention on you - rekindle hope in an ally - inspire action in a bystander.</p>
               </div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Authority:</strong> Your presence fills the air with authority. The GM judges an NPC's response, or you can spend story to set it: admiration - obedience - respect - defiance. You can push yourself to pull off a potent feat of righteous command.</p>
               </div>
-              <div class="talent-tag talent-tag-push">Push</div>
+              <div class="talent-slot talent-tag-push">Push</div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Challenge:</strong> Push yourself to challenge a foe, taking +1d on all rolls against them, but give them 1 suspense. If they do anything besides confront you, you can interrupt it. The challenge ends if an ally engages your foe, or your interrupt result is less than a perfect.</p>
               </div>
-              <div class="talent-tag talent-tag-push">Push</div>
+              <div class="talent-slot talent-tag-push">Push</div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Dauntless:</strong> Take spark when your roll is cut. Take +1d on story rolls if dropped. On a perfect, ignore it.</p>
               </div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Iron Will:</strong> You have spellcasting as the Channel Divinity talent. Detail your god and choose 1 rite, a 4d power pool (per session). You can drop 1d and roll the pool to cast a potent spell.</p>
               </div>
-              <div class="talent-tag talent-tag-ironwill">
-                <span class="talent-tag-single-box" aria-hidden="true"></span>
+              <div class="talent-slot talent-slot--stack-center talent-slot--no-icon talent-tag-ironwill">
+                <span class="talent-tag-single-box control control--write" aria-hidden="true"></span>
               </div>
             </article>
 
             <div class="paladin-bottom">
               <div class="paladin-bottom-left">
-                <article class="talent-entry talent-entry-compact">
-                  <div class="talent-picker" aria-hidden="true"></div>
-                  <div class="talent-copy">
+                <article class="talent-row talent-row--compact">
+                  <div class="talent-picker control control--pick" aria-hidden="true"></div>
+                  <div class="path-copy talent-body">
                     <p><strong>Guardian:</strong> Take +1d when you assist on a defense roll. You can also make a defense roll for an ally when they would be affected by an impact move, or push yourself to defend multiple nearby allies from a single attack. (no free activation)</p>
                   </div>
                 </article>
-                <article class="talent-entry talent-entry-compact">
-                  <div class="talent-picker" aria-hidden="true"></div>
-                  <div class="talent-copy">
+                <article class="talent-row talent-row--compact">
+                  <div class="talent-picker control control--pick" aria-hidden="true"></div>
+                  <div class="path-copy talent-body">
                     <p><strong>Rebuke:</strong> When the GM spends suspense to prompt an impact move, you take +1d on any follow-up action against the source. On a critical, take spark.</p>
                   </div>
                 </article>
@@ -273,15 +273,15 @@
                 </header>
                 <div class="tenets-body" aria-hidden="true">
                   <div class="tenets-row">
-                    <span class="tenets-check"></span>
+                    <span class="tenets-check control control--tenet"></span>
                     <div class="tenets-line"></div>
                   </div>
                   <div class="tenets-row">
-                    <span class="tenets-check"></span>
+                    <span class="tenets-check control control--tenet"></span>
                     <div class="tenets-line"></div>
                   </div>
                   <div class="tenets-row">
-                    <span class="tenets-check"></span>
+                    <span class="tenets-check control control--tenet"></span>
                     <div class="tenets-line"></div>
                   </div>
                 </div>
@@ -291,14 +291,14 @@
         </section>
       </section>
 
-      <section class="panel traits-panel">
-        <div class="traits-header">
-          <div class="traits-header-half">
-            <p class="panel-title">Traits</p>
+      <section class="sheet-panel traits-panel">
+        <div class="traits-panel-bar panel-bar">
+          <div class="panel-bar-split">
+            <p class="panel-bar-title">Traits</p>
             <p class="traits-subtitle">2 you are &amp; 1 you're not</p>
           </div>
-          <div class="traits-header-half">
-            <p class="panel-title">Desires</p>
+          <div class="panel-bar-split">
+            <p class="panel-bar-title">Desires</p>
             <p class="traits-subtitle">2 you want &amp; 1 you don't</p>
           </div>
         </div>
@@ -351,11 +351,11 @@
       </section>
 
       <div class="bottom-row">
-        <section class="panel">
-          <p class="panel-title">Story Arcs</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Story Arcs</p>
         </section>
 
-        <section class="panel experience-panel">
+        <section class="sheet-panel experience-panel">
           <div class="experience-panel-body" aria-hidden="true">
             <div class="experience-grid">
               <div>

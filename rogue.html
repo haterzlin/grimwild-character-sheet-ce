@@ -7,27 +7,27 @@
   <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Rogue character sheet">
-    <article class="page" aria-label="Character page">
-      <header class="page-header">
-        <div class="logo-block" aria-label="Grimwild Community Edition logo">
-          <img class="logo" src="logo.webp" alt="Grimwild logo">
-          <p class="logo-edition">Community Edition</p>
+  <main class="sheet-workspace" aria-label="Grimwild Community Edition Rogue character sheet">
+    <article class="sheet-page" aria-label="Character page">
+      <header class="sheet-page-header">
+        <div class="sheet-logo-block" aria-label="Grimwild Community Edition logo">
+          <img class="sheet-logo" src="logo.webp" alt="Grimwild logo">
+          <p class="sheet-logo-edition">Community Edition</p>
         </div>
-        <div class="header-fields">
-          <section class="panel header-box">
-            <p class="header-box-label">Name</p>
-            <div class="header-box-body" aria-hidden="true"></div>
+        <div class="sheet-identity">
+          <section class="sheet-panel sheet-field">
+            <p class="sheet-field-label">Name</p>
+            <div class="sheet-field-body" aria-hidden="true"></div>
           </section>
-          <section class="panel header-box">
-            <p class="header-box-label">Distinctive Features</p>
-            <div class="header-box-body" aria-hidden="true"></div>
+          <section class="sheet-panel sheet-field">
+            <p class="sheet-field-label">Distinctive Features</p>
+            <div class="sheet-field-body" aria-hidden="true"></div>
           </section>
         </div>
       </header>
 
       <section class="left-grid">
-        <section class="panel attributes-panel">
+        <section class="sheet-panel attributes-panel">
           <div class="attributes-panel-body" aria-hidden="true">
             <div class="attributes-top">
               <div class="attribute-column">
@@ -89,10 +89,10 @@
           </div>
         </section>
 
-        <section class="panel conditions-panel">
-          <header class="section-heading">
-            <p class="panel-title">Conditions</p>
-            <p class="section-meta">+1t Related</p>
+        <section class="sheet-panel conditions-panel">
+          <header class="panel-bar">
+            <p class="panel-bar-title">Conditions</p>
+            <p class="panel-bar-meta">+1t Related</p>
           </header>
           <div>
             <div aria-hidden="true">
@@ -110,20 +110,20 @@
           </div>
         </section>
 
-        <section class="panel">
-          <p class="panel-title">Backgrounds &amp; Wises</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Backgrounds &amp; Wises</p>
         </section>
 
-        <div class="stack">
-          <section class="panel">
-            <p class="panel-title">Weapon Style</p>
+        <div class="sheet-stack">
+          <section class="sheet-panel">
+            <p class="panel-bar-title">Weapon Style</p>
           </section>
-          <section class="panel spark-panel">
-            <header class="section-heading">
-              <p class="panel-title">Spark (+1d)</p>
+          <section class="sheet-panel spark-panel">
+            <header class="panel-bar">
+              <p class="panel-bar-title">Spark (+1d)</p>
               <div class="header-checks" aria-hidden="true">
-                <span class="header-check"></span>
-                <span class="header-check"></span>
+                <span class="header-check control control--title"></span>
+                <span class="header-check control control--title"></span>
               </div>
             </header>
             <div>
@@ -139,17 +139,17 @@
           </section>
         </div>
 
-        <section class="panel">
-          <p class="panel-title">Bonds</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Bonds</p>
         </section>
 
-        <div class="stack">
-          <section class="panel story-panel">
-            <header class="section-heading">
-              <p class="panel-title">Story</p>
+        <div class="sheet-stack">
+          <section class="sheet-panel story-panel">
+            <header class="panel-bar">
+              <p class="panel-bar-title">Story</p>
               <div class="header-checks" aria-hidden="true">
-                <span class="header-check"></span>
-                <span class="header-check"></span>
+                <span class="header-check control control--title"></span>
+                <span class="header-check control control--title"></span>
               </div>
             </header>
             <div>
@@ -158,8 +158,8 @@
               <p>Doubtful details may require a story roll.</p>
             </div>
           </section>
-          <section class="panel vantage-panel">
-            <p class="panel-title">Vantage</p>
+          <section class="sheet-panel vantage-panel">
+            <p class="panel-bar-title">Vantage</p>
             <div>
               <div>
                 <p>Certain</p>
@@ -183,99 +183,99 @@
       </section>
     </article>
 
-    <article class="page page-right" aria-label="Path page">
-      <section class="panel path-panel">
-        <header class="section-heading">
-          <p class="panel-title">Rogue</p>
-          <p class="section-meta">Trackers</p>
+    <article class="sheet-page sheet-page--path" aria-label="Path page">
+      <section class="sheet-panel path-panel">
+        <header class="panel-bar">
+          <p class="panel-bar-title">Rogue</p>
+          <p class="panel-bar-meta">Trackers</p>
         </header>
 
-        <section class="subsection core-talents">
-          <p class="panel-title">Core Talent</p>
-          <div class="core-talent-body">
-            <div class="core-talent-copy">
-              <p><span class="talent-lead"></span><strong>Expertise:</strong> Choose three skills below as your skill set. Take +1d when using a chosen skill. Each session, you have a 4d Competence pool to represent your focus under pressure. You can roll it as bonus dice after any of these skills.</p>
+        <section class="panel-section core-talents">
+          <p class="panel-bar-title">Core Talent</p>
+          <div class="path-core-layout">
+            <div class="path-copy path-copy--core">
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Expertise:</strong> Choose three skills below as your skill set. Take +1d when using a chosen skill. Each session, you have a 4d Competence pool to represent your focus under pressure. You can roll it as bonus dice after any of these skills.</p>
               <p><strong>Above board:</strong> duel - evade - investigate - persuade - track - traverse.</p>
               <p><strong>Below table:</strong> ambush - forgery and disguise - lying - sabotage - sleight of hand - stealth.</p>
               <p>[GROWTH: 3 levels / +1d Competence per session, +1 skill]</p>
             </div>
-            <aside class="tracker-sidebar tracker-sidebar-single">
+            <aside class="tracker-panel tracker-panel--top-11">
               <p class="tracker-label">Comp.</p>
-              <div class="tracker-stack tracker-stack-boxes" aria-hidden="true">
-                <div class="talent-tag-single-box"></div>
+              <div class="tracker-list tracker-list--boxes" aria-hidden="true">
+                <div class="talent-tag-single-box control control--write"></div>
               </div>
             </aside>
           </div>
         </section>
 
-        <section class="subsection path-talents">
-          <p class="panel-title">Path Talents</p>
-          <div class="path-talents-body">
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+        <section class="panel-section path-talents">
+          <p class="panel-bar-title">Path Talents</p>
+          <div class="talent-list">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>According to Plan:</strong> You gain 1 story per session and can spend story to flashback, establishing how you planned for the current situation. Make a montage roll, taking +1d if it fell within your expertise. The GM must take suspense in place of an impact move.</p>
               </div>
-              <div class="talent-tag talent-tag-story">Story</div>
+              <div class="talent-slot talent-tag-story">Story</div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Cunning Actions:</strong> On a perfect in an intense scene, you can keep the spotlight, even if the GM wants to spend suspense. The GM must take suspense as an impact move on your follow-up. Afterward, move the spotlight to an ally.</p>
               </div>
             </article>
-            <article class="talent-entry talent-entry-rogue-affinity">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row talent-row--stretch">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Eldritch Affinity:</strong> You have spellcasting, as the Sorcery talent. You roll Presence to cast and choose 3 from magic paths and techniques. You can't cast potent spells, nor do you risk a magical twist. [Prohibited: Sorcerer]</p>
-                <div class="rogue-inset">
+                <div class="talent-inset">
                   <p>Magic Paths &amp; Techniques</p>
                 </div>
               </div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Lurker:</strong> On a perfect sneaking past or secretly observing sentient creatures, they: let a secret slip - give you a golden opportunity. If caught sneaking, you can push yourself to stay completely still and avoid detection, but must leave the area immediately after.</p>
               </div>
-              <div class="talent-tag talent-tag-push">Push</div>
+              <div class="talent-slot talent-tag-push">Push</div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Opportunist:</strong> When someone nearby rolls defense, you take +1d on an immediate follow-up. On a critical by a nearby ally, you can push yourself to add a critical bonus.</p>
               </div>
-              <div class="talent-tag talent-tag-push">Push</div>
+              <div class="talent-slot talent-tag-push">Push</div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Poisoner:</strong> Each session, you have a 4d Poisons resource pool. You have access to the following poisons: hallucinations - knockout - memory loss - nausea - paralytic - truth serum. They each take a bit of time to work and are most effective if ingested.</p>
               </div>
-              <div class="talent-tag talent-tag-bulwark">
+              <div class="talent-slot talent-slot--stack-center talent-slot--no-icon talent-tag-bulwark">
                 <span class="talent-tag-label">Poisons</span>
-                <span class="talent-tag-single-box" aria-hidden="true"></span>
+                <span class="talent-tag-single-box control control--write" aria-hidden="true"></span>
               </div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Weasel:</strong> If caught in a lie or red-handed, you can push yourself to weasel your way out - for now. Make a story roll to see if they realize their mistake later.</p>
               </div>
-              <div class="talent-tag talent-tag-push">Push</div>
+              <div class="talent-slot talent-tag-push">Push</div>
             </article>
           </div>
         </section>
       </section>
 
-      <section class="panel traits-panel">
-        <div class="traits-header">
-          <div class="traits-header-half">
-            <p class="panel-title">Traits</p>
+      <section class="sheet-panel traits-panel">
+        <div class="traits-panel-bar panel-bar">
+          <div class="panel-bar-split">
+            <p class="panel-bar-title">Traits</p>
             <p class="traits-subtitle">2 you are &amp; 1 you're not</p>
           </div>
-          <div class="traits-header-half">
-            <p class="panel-title">Desires</p>
+          <div class="panel-bar-split">
+            <p class="panel-bar-title">Desires</p>
             <p class="traits-subtitle">2 you want &amp; 1 you don't</p>
           </div>
         </div>
@@ -328,11 +328,11 @@
       </section>
 
       <div class="bottom-row">
-        <section class="panel">
-          <p class="panel-title">Story Arcs</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Story Arcs</p>
         </section>
 
-        <section class="panel experience-panel">
+        <section class="sheet-panel experience-panel">
           <div class="experience-panel-body" aria-hidden="true">
             <div class="experience-grid">
               <div>

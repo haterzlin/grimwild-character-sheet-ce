@@ -7,27 +7,27 @@
   <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Adventurer character sheet">
-    <article class="page" aria-label="Character page">
-      <header class="page-header">
-        <div class="logo-block" aria-label="Grimwild Community Edition logo">
-          <img class="logo" src="logo.webp" alt="Grimwild logo">
-          <p class="logo-edition">Community Edition</p>
+  <main class="sheet-workspace" aria-label="Grimwild Community Edition Adventurer character sheet">
+    <article class="sheet-page" aria-label="Character page">
+      <header class="sheet-page-header">
+        <div class="sheet-logo-block" aria-label="Grimwild Community Edition logo">
+          <img class="sheet-logo" src="logo.webp" alt="Grimwild logo">
+          <p class="sheet-logo-edition">Community Edition</p>
         </div>
-        <div class="header-fields">
-          <section class="panel header-box">
-            <p class="header-box-label">Name</p>
-            <div class="header-box-body" aria-hidden="true"></div>
+        <div class="sheet-identity">
+          <section class="sheet-panel sheet-field">
+            <p class="sheet-field-label">Name</p>
+            <div class="sheet-field-body" aria-hidden="true"></div>
           </section>
-          <section class="panel header-box">
-            <p class="header-box-label">Distinctive Features</p>
-            <div class="header-box-body" aria-hidden="true"></div>
+          <section class="sheet-panel sheet-field">
+            <p class="sheet-field-label">Distinctive Features</p>
+            <div class="sheet-field-body" aria-hidden="true"></div>
           </section>
         </div>
       </header>
 
       <section class="left-grid">
-        <section class="panel attributes-panel">
+        <section class="sheet-panel attributes-panel">
           <div class="attributes-panel-body" aria-hidden="true">
             <div class="attributes-top">
               <div class="attribute-column">
@@ -89,10 +89,10 @@
           </div>
         </section>
 
-        <section class="panel conditions-panel">
-          <header class="section-heading">
-            <p class="panel-title">Conditions</p>
-            <p class="section-meta">+1t Related</p>
+        <section class="sheet-panel conditions-panel">
+          <header class="panel-bar">
+            <p class="panel-bar-title">Conditions</p>
+            <p class="panel-bar-meta">+1t Related</p>
           </header>
           <div>
             <div aria-hidden="true">
@@ -110,20 +110,20 @@
           </div>
         </section>
 
-        <section class="panel">
-          <p class="panel-title">Backgrounds &amp; Wises</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Backgrounds &amp; Wises</p>
         </section>
 
-        <div class="stack">
-          <section class="panel">
-            <p class="panel-title">Weapon Style</p>
+        <div class="sheet-stack">
+          <section class="sheet-panel">
+            <p class="panel-bar-title">Weapon Style</p>
           </section>
-          <section class="panel spark-panel">
-            <header class="section-heading">
-              <p class="panel-title">Spark (+1d)</p>
+          <section class="sheet-panel spark-panel">
+            <header class="panel-bar">
+              <p class="panel-bar-title">Spark (+1d)</p>
               <div class="header-checks" aria-hidden="true">
-                <span class="header-check"></span>
-                <span class="header-check"></span>
+                <span class="header-check control control--title"></span>
+                <span class="header-check control control--title"></span>
               </div>
             </header>
             <div>
@@ -139,17 +139,17 @@
           </section>
         </div>
 
-        <section class="panel">
-          <p class="panel-title">Bonds</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Bonds</p>
         </section>
 
-        <div class="stack">
-          <section class="panel story-panel">
-            <header class="section-heading">
-              <p class="panel-title">Story</p>
+        <div class="sheet-stack">
+          <section class="sheet-panel story-panel">
+            <header class="panel-bar">
+              <p class="panel-bar-title">Story</p>
               <div class="header-checks" aria-hidden="true">
-                <span class="header-check"></span>
-                <span class="header-check"></span>
+                <span class="header-check control control--title"></span>
+                <span class="header-check control control--title"></span>
               </div>
             </header>
             <div>
@@ -158,8 +158,8 @@
               <p>Doubtful details may require a story roll.</p>
             </div>
           </section>
-          <section class="panel vantage-panel">
-            <p class="panel-title">Vantage</p>
+          <section class="sheet-panel vantage-panel">
+            <p class="panel-bar-title">Vantage</p>
             <div>
               <div>
                 <p>Certain</p>
@@ -183,30 +183,30 @@
       </section>
     </article>
 
-    <article class="page page-right" aria-label="Path page">
-      <section class="panel path-panel">
-        <header class="section-heading">
-          <p class="panel-title">Adventurer</p>
-          <p class="section-meta">Trackers</p>
+    <article class="sheet-page sheet-page--path" aria-label="Path page">
+      <section class="sheet-panel path-panel">
+        <header class="panel-bar">
+          <p class="panel-bar-title">Adventurer</p>
+          <p class="panel-bar-meta">Trackers</p>
         </header>
 
-        <section class="subsection core-talents">
-          <p class="panel-title">Core Talent</p>
+        <section class="panel-section core-talents">
+          <p class="panel-bar-title">Core Talent</p>
         </section>
 
-        <section class="subsection path-talents">
-          <p class="panel-title">Path Talents</p>
+        <section class="panel-section path-talents">
+          <p class="panel-bar-title">Path Talents</p>
         </section>
       </section>
 
-      <section class="panel traits-panel">
-        <div class="traits-header">
-          <div class="traits-header-half">
-            <p class="panel-title">Traits</p>
+      <section class="sheet-panel traits-panel">
+        <div class="traits-panel-bar panel-bar">
+          <div class="panel-bar-split">
+            <p class="panel-bar-title">Traits</p>
             <p class="traits-subtitle">2 you are &amp; 1 you're not</p>
           </div>
-          <div class="traits-header-half">
-            <p class="panel-title">Desires</p>
+          <div class="panel-bar-split">
+            <p class="panel-bar-title">Desires</p>
             <p class="traits-subtitle">2 you want &amp; 1 you don't</p>
           </div>
         </div>
@@ -259,11 +259,11 @@
       </section>
 
       <div class="bottom-row">
-        <section class="panel">
-          <p class="panel-title">Story Arcs</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Story Arcs</p>
         </section>
 
-        <section class="panel experience-panel">
+        <section class="sheet-panel experience-panel">
           <div class="experience-panel-body" aria-hidden="true">
             <div class="experience-grid">
               <div>

@@ -7,27 +7,27 @@
   <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="workspace" aria-label="Grimwild Community Edition Berserker character sheet">
-    <article class="page" aria-label="Character page">
-      <header class="page-header">
-        <div class="logo-block" aria-label="Grimwild Community Edition logo">
-          <img class="logo" src="logo.webp" alt="Grimwild logo">
-          <p class="logo-edition">Community Edition</p>
+  <main class="sheet-workspace" aria-label="Grimwild Community Edition Berserker character sheet">
+    <article class="sheet-page" aria-label="Character page">
+      <header class="sheet-page-header">
+        <div class="sheet-logo-block" aria-label="Grimwild Community Edition logo">
+          <img class="sheet-logo" src="logo.webp" alt="Grimwild logo">
+          <p class="sheet-logo-edition">Community Edition</p>
         </div>
-        <div class="header-fields">
-          <section class="panel header-box">
-            <p class="header-box-label">Name</p>
-            <div class="header-box-body" aria-hidden="true"></div>
+        <div class="sheet-identity">
+          <section class="sheet-panel sheet-field">
+            <p class="sheet-field-label">Name</p>
+            <div class="sheet-field-body" aria-hidden="true"></div>
           </section>
-          <section class="panel header-box">
-            <p class="header-box-label">Distinctive Features</p>
-            <div class="header-box-body" aria-hidden="true"></div>
+          <section class="sheet-panel sheet-field">
+            <p class="sheet-field-label">Distinctive Features</p>
+            <div class="sheet-field-body" aria-hidden="true"></div>
           </section>
         </div>
       </header>
 
       <section class="left-grid">
-        <section class="panel attributes-panel">
+        <section class="sheet-panel attributes-panel">
           <div class="attributes-panel-body" aria-hidden="true">
             <div class="attributes-top">
               <div class="attribute-column">
@@ -89,10 +89,10 @@
           </div>
         </section>
 
-        <section class="panel conditions-panel">
-          <header class="section-heading">
-            <p class="panel-title">Conditions</p>
-            <p class="section-meta">+1t Related</p>
+        <section class="sheet-panel conditions-panel">
+          <header class="panel-bar">
+            <p class="panel-bar-title">Conditions</p>
+            <p class="panel-bar-meta">+1t Related</p>
           </header>
           <div>
             <div aria-hidden="true">
@@ -110,20 +110,20 @@
           </div>
         </section>
 
-        <section class="panel">
-          <p class="panel-title">Backgrounds &amp; Wises</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Backgrounds &amp; Wises</p>
         </section>
 
-        <div class="stack">
-          <section class="panel">
-            <p class="panel-title">Weapon Style</p>
+        <div class="sheet-stack">
+          <section class="sheet-panel">
+            <p class="panel-bar-title">Weapon Style</p>
           </section>
-          <section class="panel spark-panel">
-            <header class="section-heading">
-              <p class="panel-title">Spark (+1d)</p>
+          <section class="sheet-panel spark-panel">
+            <header class="panel-bar">
+              <p class="panel-bar-title">Spark (+1d)</p>
               <div class="header-checks" aria-hidden="true">
-                <span class="header-check"></span>
-                <span class="header-check"></span>
+                <span class="header-check control control--title"></span>
+                <span class="header-check control control--title"></span>
               </div>
             </header>
             <div>
@@ -139,17 +139,17 @@
           </section>
         </div>
 
-        <section class="panel">
-          <p class="panel-title">Bonds</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Bonds</p>
         </section>
 
-        <div class="stack">
-          <section class="panel story-panel">
-            <header class="section-heading">
-              <p class="panel-title">Story</p>
+        <div class="sheet-stack">
+          <section class="sheet-panel story-panel">
+            <header class="panel-bar">
+              <p class="panel-bar-title">Story</p>
               <div class="header-checks" aria-hidden="true">
-                <span class="header-check"></span>
-                <span class="header-check"></span>
+                <span class="header-check control control--title"></span>
+                <span class="header-check control control--title"></span>
               </div>
             </header>
             <div>
@@ -158,8 +158,8 @@
               <p>Doubtful details may require a story roll.</p>
             </div>
           </section>
-          <section class="panel vantage-panel">
-            <p class="panel-title">Vantage</p>
+          <section class="sheet-panel vantage-panel">
+            <p class="panel-bar-title">Vantage</p>
             <div>
               <div>
                 <p>Certain</p>
@@ -183,18 +183,18 @@
       </section>
     </article>
 
-    <article class="page page-right" aria-label="Path page">
-      <section class="panel path-panel">
-        <header class="section-heading">
-          <p class="panel-title">Berserker</p>
-          <p class="section-meta">Trackers</p>
+    <article class="sheet-page sheet-page--path" aria-label="Path page">
+      <section class="sheet-panel path-panel">
+        <header class="panel-bar">
+          <p class="panel-bar-title">Berserker</p>
+          <p class="panel-bar-meta">Trackers</p>
         </header>
 
-        <section class="subsection core-talents">
-          <p class="panel-title">Core Talent</p>
-          <div class="core-talent-body">
-            <div class="core-talent-copy">
-              <p><span class="talent-lead"></span><strong>Frenzy:</strong> Once per session, or when you get bloodied or take vex, you can enter a frenzy for the scene. During the frenzy, you can only take aggressive actions. You:</p>
+        <section class="panel-section core-talents">
+          <p class="panel-bar-title">Core Talent</p>
+          <div class="path-core-layout">
+            <div class="path-copy path-copy--core">
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Frenzy:</strong> Once per session, or when you get bloodied or take vex, you can enter a frenzy for the scene. During the frenzy, you can only take aggressive actions. You:</p>
               <ul class="core-talent-list">
                 <li>Take +1d for each mark you have and ignore all thorns from harm and marks.</li>
                 <li>Collateral damage: send something flying - smash mooks - throw insults - wreck something.</li>
@@ -203,65 +203,65 @@
               <p>You can only exit a frenzy when: no challenger stands before you - get dropped - push yourself.</p>
               <p>[Growth: 3 levels / +1 free activation of frenzy per session.]</p>
             </div>
-            <aside class="tracker-sidebar tracker-sidebar-boxes">
+            <aside class="tracker-panel tracker-panel--top-11">
               <p class="tracker-label">Frenzy</p>
-              <div class="tracker-stack tracker-stack-boxes" aria-hidden="true">
-                <div class="tracker-box"></div>
-                <div class="tracker-box tracker-box-muted"></div>
-                <div class="tracker-box tracker-box-muted"></div>
+              <div class="tracker-list tracker-list--boxes" aria-hidden="true">
+                <div class="control control--track"></div>
+                <div class="control control--track control--muted"></div>
+                <div class="control control--track control--muted"></div>
               </div>
             </aside>
           </div>
         </section>
 
-        <section class="subsection path-talents">
-          <p class="panel-title">Path Talents</p>
-          <div class="path-talents-body">
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+        <section class="panel-section path-talents">
+          <p class="panel-bar-title">Path Talents</p>
+          <div class="talent-list">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Fearsome:</strong> Your presence instills fear in others. The GM judges an NPC's response, or you can spend story to set it: hostile - nervous - respectful - scared. You can push yourself to pull off a potent feat of intimidation.</p>
               </div>
-              <div class="talent-tag talent-tag-push">Push</div>
+              <div class="talent-slot talent-tag-push">Push</div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Flesh Wounds:</strong> When you would take a bloodied while already bloodied, you can instead take: a condition - vex - rattled. Each option can only be taken this way once per session.</p>
               </div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Into the Fray:</strong> When you're the first into an intense situation, 5s count as 6s, but 4s count as 1s on your first roll. You also setup the first person following you regardless of your outcome.</p>
               </div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Joyful Warrior:</strong> On a critical or when bloodied in battle, you take spark and can: clear one mark from each ally - bring a dropped (not dead) ally back into the scene.</p>
               </div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Mighty:</strong> When given time, you can pull off potent feats of raw strength. You can push yourself to do it on the spot.</p>
               </div>
-              <div class="talent-tag talent-tag-push">Push</div>
+              <div class="talent-slot talent-tag-push">Push</div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Overkill:</strong> On a critical when bringing violence, threats, or destruction to bear, you can: cause an extra secondary effect - roll the related task pool twice.</p>
               </div>
-              <div class="talent-tag talent-tag-goad">Goad</div>
+              <div class="talent-slot talent-tag-goad">Goad</div>
             </article>
-            <article class="talent-entry">
-              <div class="talent-picker" aria-hidden="true"></div>
-              <div class="talent-copy">
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
                 <p><strong>Warcry:</strong> Each session, you have 2 inspiration, as the talent. You can spend one to: increase an ally's die result by 1 (3&#8594;4) - calm or intensify a vex response - clear rattled from an ally. [Prohibited: Bard]</p>
               </div>
-              <div class="talent-tag talent-tag-insp">
+              <div class="talent-slot talent-slot--stack-center talent-slot--no-icon talent-tag-insp">
                 <span class="talent-tag-label">Insp.</span>
                 <span class="talent-tag-double-box" aria-hidden="true">
                   <span></span>
@@ -273,14 +273,14 @@
         </section>
       </section>
 
-      <section class="panel traits-panel">
-        <div class="traits-header">
-          <div class="traits-header-half">
-            <p class="panel-title">Traits</p>
+      <section class="sheet-panel traits-panel">
+        <div class="traits-panel-bar panel-bar">
+          <div class="panel-bar-split">
+            <p class="panel-bar-title">Traits</p>
             <p class="traits-subtitle">2 you are &amp; 1 you're not</p>
           </div>
-          <div class="traits-header-half">
-            <p class="panel-title">Desires</p>
+          <div class="panel-bar-split">
+            <p class="panel-bar-title">Desires</p>
             <p class="traits-subtitle">2 you want &amp; 1 you don't</p>
           </div>
         </div>
@@ -333,11 +333,11 @@
       </section>
 
       <div class="bottom-row">
-        <section class="panel">
-          <p class="panel-title">Story Arcs</p>
+        <section class="sheet-panel">
+          <p class="panel-bar-title">Story Arcs</p>
         </section>
 
-        <section class="panel experience-panel">
+        <section class="sheet-panel experience-panel">
           <div class="experience-panel-body" aria-hidden="true">
             <div class="experience-grid">
               <div>
