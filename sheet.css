@@ -529,9 +529,7 @@ ul {
   --control-bg: var(--line);
 }
 
-.control--track,
-.monk-interrupt > span,
-.ranger-quarry > span {
+.control--track {
   width: 6.2mm;
   height: 6.2mm;
   border: 2px solid var(--line);
@@ -1074,14 +1072,6 @@ ul {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.monk-interrupt {
-  display: grid;
-  grid-template-columns: repeat(3, 6.2mm);
-  justify-content: center;
-  gap: 1.8mm;
-  margin-top: 2mm;
-}
-
 .tracker-diamond-grid {
   display: grid;
   grid-template-columns: repeat(3, 7mm);
@@ -1097,14 +1087,6 @@ ul {
   border-radius: 1.2mm;
   background: var(--page-bg);
   transform: rotate(45deg);
-}
-
-.ranger-quarry {
-  display: grid;
-  grid-template-columns: repeat(3, 6.2mm);
-  justify-content: center;
-  gap: 1.8mm;
-  margin-top: 2.2mm;
 }
 
 .rite-trackers {
