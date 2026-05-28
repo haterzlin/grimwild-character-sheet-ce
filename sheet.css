@@ -562,7 +562,7 @@ ul {
   --control-radius: 1.3mm;
 }
 
-.control--muted {
+.muted {
   opacity: 0.45;
 }
 
@@ -580,8 +580,10 @@ ul {
   height: 4.8mm;
 }
 
-.control-cell--muted {
+.control-cell.muted {
+  opacity: 1;
   background: #ececec;
+  border-left-color: rgba(34, 34, 34, 0.35);
 }
 
 .control--xp,
@@ -1028,12 +1030,8 @@ ul {
   width: 12mm;
 }
 
-.tracker-segments--wizard:has(.control-cell--muted) {
+.tracker-segments--wizard:has(.control-cell.muted) {
   border-color: rgba(34, 34, 34, 0.35);
-}
-
-.control-cell--muted {
-  border-left-color: rgba(34, 34, 34, 0.35);
 }
 
 .tracker-list--boxes {
