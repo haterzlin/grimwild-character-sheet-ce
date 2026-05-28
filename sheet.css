@@ -539,15 +539,23 @@ ul {
 
 .control--tag-sm,
 .talent-slot::before,
-.talent-tag-double-box > span {
-  width: 4.8mm;
-  height: 4.8mm;
+.talent-tag-double-box > span,
+.talent-checkbox {
+  width: 6mm;
+  height: 6mm;
   border: 2px solid var(--line);
-  border-radius: 1.5mm;
+  border-radius: 1mm;
   background: var(--page-bg);
 }
 
+.talent-checkbox,
+.talent-pool {
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
 .control--write,
+.talent-pool,
 .experience-head > div > span,
 .experience-grid > div > span {
   width: 9mm;
@@ -989,7 +997,7 @@ ul {
   gap: 1.8mm;
 }
 
-.tracker-cluster :is(.talent-tag-single-box, .control--write) {
+.tracker-cluster :is(.talent-tag-single-box, .control--write, .talent-pool) {
   width: 12mm;
   height: 12mm;
 }
