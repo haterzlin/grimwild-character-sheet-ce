@@ -537,9 +537,6 @@ ul {
   background: var(--page-bg);
 }
 
-.control--tag-sm,
-.talent-slot::before,
-.talent-tag-double-box > span,
 .talent-checkbox {
   width: 6mm;
   height: 6mm;
@@ -554,7 +551,6 @@ ul {
   flex: 0 0 auto;
 }
 
-.control--write,
 .talent-pool,
 .experience-head > div > span,
 .experience-grid > div > span {
@@ -997,11 +993,6 @@ ul {
   gap: 1.8mm;
 }
 
-.tracker-cluster :is(.talent-tag-single-box, .control--write, .talent-pool) {
-  width: 12mm;
-  height: 12mm;
-}
-
 .tracker-box-row {
   display: grid;
   grid-template-columns: repeat(3, 6.2mm);
@@ -1187,19 +1178,6 @@ ul {
   white-space: nowrap;
 }
 
-.talent-slot::before {
-  content: "";
-  flex: 0 0 auto;
-}
-
-.talent-tag-story::before {
-  border-radius: 50%;
-}
-
-.talent-tag-bless::before {
-  border-radius: 1.5mm;
-}
-
 .talent-tag-insp {
   min-width: 20mm;
 }
@@ -1211,11 +1189,6 @@ ul {
 .talent-tag-double-box {
   display: inline-flex;
   gap: 2mm;
-}
-
-.talent-tag-omens .talent-tag-double-box > span {
-  width: 6.2mm;
-  height: 6.2mm;
 }
 
 .slot-row--wide {
@@ -1236,10 +1209,6 @@ ul {
   gap: 1.2mm;
 }
 
-.talent-slot--no-icon::before {
-  display: none;
-}
-
 .talent-tag-elements {
   justify-content: center;
 }
@@ -1252,10 +1221,6 @@ ul {
   font-size: 10pt;
   font-weight: 700;
   font-variant-caps: small-caps;
-}
-
-.talent-tag-pot::before {
-  border-radius: 1.5mm;
 }
 
 /* Phase 4 overrides: class-specific layouts that remain intentionally isolated */
@@ -1329,11 +1294,6 @@ ul {
 
 .tenets-line {
   min-height: 9mm;
-}
-
-.talent-tag-push::before,
-.talent-tag-goad::before {
-  border-radius: 1.5mm;
 }
 
 @media print {
