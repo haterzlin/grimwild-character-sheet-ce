@@ -125,8 +125,7 @@ ul {
   min-height: 0;
 }
 
-.bottom-row,
-.two-up {
+.bottom-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--panel-gap);
@@ -199,8 +198,7 @@ ul {
   min-height: 18mm;
 }
 
-.attributes-panel-body,
-.conditions-panel-body {
+.attributes-panel-body {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -552,7 +550,6 @@ ul {
 }
 
 .talent-pool,
-.experience-head > div > span,
 .experience-grid > div > span {
   width: 9mm;
   height: 9mm;
@@ -590,15 +587,12 @@ ul {
   border-left-color: rgba(34, 34, 34, 0.35);
 }
 
-.control--xp,
-.experience-head > div > span,
 .experience-grid > div > span {
   width: 5.2mm;
   height: 5.2mm;
   border-radius: 2mm;
 }
 
-.control--trait,
 .traits-columns li::before {
   width: 3.4mm;
   height: 3.4mm;
@@ -686,11 +680,6 @@ ul {
   padding: 2.5mm;
   border-radius: 0 0 3mm 3mm;
   background: var(--panel-fill);
-}
-
-.experience-head > div {
-  display: flex;
-  gap: 1.2mm;
 }
 
 .experience-title {
