@@ -10,7 +10,7 @@
   --title-pad-y: 2.5mm;
   --title-pad-x: 4mm;
   --subsection-title-pad-x: 3mm;
-  --side-widget-width: 22mm;
+  --side-widget-width: 27mm;
   --talent-entry-pad-x: 2.6mm;
   --page-bg: #fff;
   --text: #000;
@@ -748,7 +748,7 @@ ul {
 }
 
 .traits-subtitle {
-  font-size: 8pt;
+  font-size: 10pt;
   font-weight: 700;
   font-variant-caps: small-caps;
   letter-spacing: 0.02em;
