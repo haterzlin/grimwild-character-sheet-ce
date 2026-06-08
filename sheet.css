@@ -1285,7 +1285,52 @@ ul {
   min-height: 9mm;
 }
 
+.sheet-nav {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  left: 12px;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  pointer-events: none;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.sheet-nav-link {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  max-width: min(42vw, 260px);
+  min-height: 36px;
+  padding: 8px 12px;
+  border: 1px solid rgba(34, 34, 34, 0.45);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--text);
+  font-size: 11pt;
+  line-height: 1.1;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+}
+
+.sheet-nav-link--next {
+  margin-left: auto;
+  text-align: right;
+}
+
+.sheet-nav-link:hover,
+.sheet-nav-link:focus-visible {
+  background: var(--bar-bg);
+  color: var(--bar-fg);
+}
+
 @media print {
+  .sheet-nav {
+    display: none;
+  }
+
   .sheet-workspace {
     display: block;
     padding: 0;
