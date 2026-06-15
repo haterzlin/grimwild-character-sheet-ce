@@ -127,13 +127,9 @@ ul {
 
 .bottom-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--panel-gap);
-}
-
-.bottom-row {
   flex: 0.68 1 0;
   grid-template-columns: 3.4fr 1.2fr;
+  gap: var(--panel-gap);
 }
 
 .sheet-panel {
@@ -202,12 +198,9 @@ ul {
   display: flex;
   flex: 1;
   flex-direction: column;
-  background: var(--panel-fill);
-}
-
-.attributes-panel-body {
   position: relative;
   padding-top: 1mm;
+  background: var(--panel-fill);
 }
 
 .attributes-top {
@@ -594,11 +587,16 @@ ul {
 }
 
 .traits-columns li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
   width: 3.4mm;
   height: 3.4mm;
   border: 1.5px solid var(--line);
   border-radius: 50%;
   background: var(--page-bg);
+  transform: translateY(-50%);
 }
 
 .header-checks {
@@ -791,14 +789,6 @@ ul {
   padding-left: 4.4mm;
 }
 
-.traits-columns li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .panel-bar {
   display: flex;
   justify-content: space-between;
@@ -858,14 +848,10 @@ ul {
   flex: 2.12 1 0;
 }
 
-.path-core-layout,
-.talent-list {
+.path-core-layout {
   display: flex;
   flex: 1;
   min-height: 0;
-}
-
-.path-core-layout {
   background: var(--panel-fill);
 }
 
@@ -961,15 +947,12 @@ ul {
 
 .tracker-segments {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   height: 5.8mm;
   border: 2px solid var(--line);
   border-radius: 2mm;
   overflow: hidden;
   background: var(--page-bg);
-}
-
-.tracker-segments {
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .tracker-segments > span + span {
@@ -1101,9 +1084,11 @@ ul {
   background: var(--page-bg);
 }
 
-.talent-list,
 .talent-list {
+  display: flex;
+  flex: 1;
   flex-direction: column;
+  min-height: 0;
   background: var(--panel-fill);
 }
 
