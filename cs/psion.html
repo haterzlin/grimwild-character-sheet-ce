@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Karta paladina</title>
+  <title>Grimwild CE Karta psiona</title>
   <link rel="stylesheet" href="../sheet.css">
 </head>
 <body>
-  <main class="sheet-workspace" aria-label="Karta postavy paladina pro Grimwild Komunitní vydání">
+  <main class="sheet-workspace" aria-label="Karta postavy psiona pro Grimwild Komunitní vydání">
     <article class="sheet-page" aria-label="Strana postavy">
       <header class="sheet-page-header">
         <div class="sheet-logo-block" aria-label="Logo Grimwild Komunitní vydání">
@@ -184,9 +184,9 @@
     </article>
 
     <article class="sheet-page sheet-page--path" aria-label="Strana cesty">
-      <section class="sheet-panel path-panel">
+      <section class="sheet-panel path-panel path-panel--dense">
         <header class="panel-bar">
-          <p class="panel-bar-title">Paladin</p>
+          <p class="panel-bar-title">Psion</p>
           <p class="panel-bar-meta">Ukazatele</p>
         </header>
 
@@ -194,19 +194,32 @@
           <p class="panel-bar-title">Hlavní talent</p>
           <div class="path-core-layout">
             <div class="path-copy path-copy--core">
-              <p><span class="talent-lead control control--pick-filled"></span><strong>Přísaha:</strong> Čerpáš moc ze svých tří zásad. Když přidáš trn za zakrvácení, otřesení nebo stav na hraně, získáš také +1 kostku. Každé sezení máš 3 boží zásahy. Když jednáš s naprostým přesvědčením, utrať je 1 za 1 po hodu a odeber kostky z banku úkolu.</p>
-              <p><strong>Ujištění:</strong> Před každým sezením řekni své zásady a proberte, jak se projevily minule. Dej jiskru hráči, který se zapojil do scény s tvými zásadami. Za každou porušenou zásadu máš o 1 boží zásah méně.</p>
-              <p>[Růst: 2 úrovně / +1 boží zásah za sezení]</p>
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Probuzená mysl:</strong> Umíš kouzlit. Vyber dva bastiony níže; slouží jako ohniska tvé psionické magie. Kouzlíš hodem Důvtipem a můžeš kouzla učinit mocnými přidáním nestability, která postupně přidává rostoucí trny k budoucím hodům na kouzlení.</p>
+              <p>Nemůžeš sesílat mocná kouzla, jakmile z nestability přidáváš +2 trny. Trny z nestability nelze ignorovat a obnovují se na začátku každého sezení. S růstem získáš další políčka bez přidání nestability.</p>
+              <p>[Růst: Na úrovních 3 a 6 získej +1 políčko nestability na +0 trnů a +1 baštu.]</p>
             </div>
-            <aside class="tracker-panel tracker-panel--top-7">
-              <p class="tracker-label">Zásah</p>
-              <div class="tracker-diamond-grid" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span class="control control--track muted"></span>
-                <span class="control control--track muted"></span>
-                <span class="control control--track muted"></span>
+            <aside class="tracker-panel tracker-panel--top-2_5">
+              <div class="tracker-list" aria-hidden="true">
+                <div class="tracker-cluster">
+                  <p class="tracker-label">+0t</p>
+                  <div class="tracker-box-row">
+                    <span class="talent-checkbox"></span>
+                    <span class="talent-checkbox muted"></span>
+                    <span class="talent-checkbox muted"></span>
+                  </div>
+                </div>
+                <div class="tracker-cluster">
+                  <p class="tracker-label">+1t</p>
+                  <div class="tracker-box-row">
+                    <span class="talent-checkbox"></span>
+                  </div>
+                </div>
+                <div class="tracker-cluster">
+                  <p class="tracker-label">+2t</p>
+                  <div class="tracker-box-row">
+                    <span class="talent-checkbox"></span>
+                  </div>
+                </div>
               </div>
             </aside>
           </div>
@@ -218,81 +231,65 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Égida:</strong> Máš +1 kostku na hod na obranu, když se chráníš před fyzickou újmou. Při dokonalém výsledku můžeš také: udržet jejich pozornost na sobě - zažehnout naději ve spojenci - inspirovat kolemjdoucího k akci.</p>
-              </div>
-            </article>
-            <article class="talent-row">
-              <div class="talent-picker control control--pick" aria-hidden="true"></div>
-              <div class="path-copy talent-body">
-                <p><strong>Autorita:</strong> Tvá přítomnost naplňuje vzduch autoritou. Vypravěč určí reakci NPC, nebo utrať narativní bod a nastav ji: obdiv - poslušnost - respekt - vzdor. Můžeš se překonat pro mocný čin spravedlivého velení.</p>
+                <p><strong>Ozvěna:</strong> Jednou za sezení můžeš vytvořit dvojníka jako bank 3 kostek moci. Je to druhá verze tebe, jedná jako ty a sdílí tvé znalosti, schopnosti i zdroje. Můžeš odebrat 1 kostku z jeho banku, aby ti pomohl nebo si s tebou vyměnil místo.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Překonat</span>
+                <span>Použití</span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Výzva:</strong> Překonej se a vyzvi nepřítele; máš +1 kostku na všechny hody proti němu, ale dej mu 1 napětí. Pokud dělá cokoli kromě střetu s tebou, můžeš ho přerušit. Výzva končí, když se do něj pustí spojenec nebo tvé přerušení není dokonalé.</p>
+                <p><strong>Předtucha:</strong> Zahlédáš drobné záblesky budoucnosti. Jednou za sezení můžeš v klidné situaci popsat krátký postup a vypravěč ti řekne výsledek. Pokud hrozí riziko, hoď montážní hod, jak by to dopadlo. Poté se rozhodni, zda akci provedeš.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Překonat</span>
+                <span>Použití</span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Neohrožený:</strong> Získej jiskru, když je tvůj hod snížen. Máš +1 kostku na hody, když jsi vyřazený. Při dokonalém výsledku to ignoruj.</p>
+                <p><strong>Mentální výbuch:</strong> Při kritickém úspěchu v hodu baštou nepřidáš nestabilitu, místo toho jednu smažeš. Kolem tebe to způsobí duševní vedlejší škody: zmatek - halucinace - bolesti hlavy - paniku. Jen jednou z toho můžeš udělat účinek na úrovni rituálu, zasahující míle daleko.</p>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Železná vůle:</strong> Umíš kouzlit jako s talentem Božská přítomnost. Popiš svého boha a vyber 1 obřad, bank 4 kostek moci za sezení. Můžeš odhodit 1 kostku a hodit bank pro mocné kouzlo.</p>
+                <p><strong>Psychický válečník:</strong> Obracíš svou psychickou nestálost proti ostatním. Dokážeš tvořit zbraně z čisté vůle a používat je Důvtipem. Máš +1 kostku na navazující akci s nimi, když utrpíš rozrušení nebo zvýšíš úroveň nestability.</p>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Čtenář:</strong> Získáš 1 narativní bod za sezení. Když někoho poprvé potkáš, můžeš utratit narativní bod a znát jeho nejsilnější povrchovou myšlenku; je pro tebe jako otevřená kniha. Pokud na ni navážeš, počítá se jako příprava.</p>
+              </div>
+              <div class="talent-slot">
+                <span class="talent-checkbox" aria-hidden="true"></span>
+                <span>Narativ</span>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Bouřlivá mysl:</strong> Tvá roztříštěná mysl prosakuje do vědomí ostatních. Reakci NPC posoudí vypravěč, nebo utrať narativní bod a nastav ji: rozrušená - zmatená - paranoidní - zapomnětlivá. Jednou za sezení, když bys utrpěl rozrušení, ho místo tebe utrpí blízký tvor.</p>
+              </div>
+              <div class="talent-slot talent-tag-insp">
+                <span class="talent-checkbox" aria-hidden="true"></span>
+                <span>Vyvolej rozr.</span>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Proměna podoby:</strong> Každé sezení máš bank 2 kostek proměny. Můžeš ho hodit a změnit své rysy a podobu, ale zachováš si stejný základní tvar.</p>
               </div>
               <div class="talent-slot talent-slot--stack-center">
+                <span class="talent-tag-label">Proměna</span>
                 <span class="talent-pool" aria-hidden="true"></span>
               </div>
             </article>
-
-            <div class="paladin-bottom">
-              <div class="paladin-bottom-left">
-                <article class="talent-row talent-row--compact">
-                  <div class="talent-picker control control--pick" aria-hidden="true"></div>
-                  <div class="path-copy talent-body">
-                    <p><strong>Ochránce:</strong> Máš +1 kostku, když pomáháš s hodem na obranu. Můžeš také hodit na obranu za spojence zasaženého určením následků, nebo se překonat a bránit několik blízkých spojenců před jedním útokem. (bez volného spuštění)</p>
-                  </div>
-                </article>
-                <article class="talent-row talent-row--compact">
-                  <div class="talent-picker control control--pick" aria-hidden="true"></div>
-                  <div class="path-copy talent-body">
-                    <p><strong>Pokárání:</strong> Když vypravěč utratí napětí pro určení následků, máš +1 kostku na navazující akci proti zdroji. Při kritickém úspěchu získej jiskru.</p>
-                  </div>
-                </article>
-              </div>
-
-              <section class="tenets-panel">
-                <header class="tenets-header">
-                  <p><strong>Zásady:</strong> označ porušené. Šikmá čára lehké, výplň těžké.</p>
-                </header>
-                <div class="tenets-body" aria-hidden="true">
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                </div>
-              </section>
-            </div>
           </div>
         </section>
       </section>
@@ -411,8 +408,8 @@
     </article>
   </main>
   <nav class="sheet-nav" aria-label="Navigace mezi kartami">
-    <a class="sheet-nav-link" href="monk.html" rel="prev">&larr; Předchozí: Mnich</a>
-    <a class="sheet-nav-link sheet-nav-link--next" href="psion.html" rel="next">Další: Psion &rarr;</a>
+    <a class="sheet-nav-link" href="paladin.html" rel="prev">&larr; Předchozí: Paladin</a>
+    <a class="sheet-nav-link sheet-nav-link--next" href="ranger.html" rel="next">Další: Hraničář &rarr;</a>
   </nav>
 </body>
 </html>

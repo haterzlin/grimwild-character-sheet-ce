@@ -713,6 +713,29 @@ ul {
   flex-direction: column;
 }
 
+.path-panel--dense .path-copy {
+  font-size: 9.4pt;
+  line-height: 1.22;
+}
+
+.path-panel--dense .path-copy--core {
+  padding-top: 2.2mm;
+}
+
+.path-panel--dense .path-copy--core > p + p {
+  margin-top: 1.2mm;
+}
+
+.path-panel--dense .talent-row {
+  padding-top: 0.95mm;
+  padding-bottom: 0.95mm;
+}
+
+.path-panel--dense .talent-slot {
+  font-size: 9.2pt;
+  gap: 1.1mm;
+}
+
 .traits-panel {
   min-height: 0;
   flex: 0.5 1 0;

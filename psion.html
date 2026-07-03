@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Paladin Sheet</title>
+  <title>Grimwild CE Psion Sheet</title>
   <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-  <main class="sheet-workspace" aria-label="Grimwild Community Edition Paladin character sheet">
+  <main class="sheet-workspace" aria-label="Grimwild Community Edition Psion character sheet">
     <article class="sheet-page" aria-label="Character page">
       <header class="sheet-page-header">
         <div class="sheet-logo-block" aria-label="Grimwild Community Edition logo">
@@ -184,9 +184,9 @@
     </article>
 
     <article class="sheet-page sheet-page--path" aria-label="Path page">
-      <section class="sheet-panel path-panel">
+      <section class="sheet-panel path-panel path-panel--dense">
         <header class="panel-bar">
-          <p class="panel-bar-title">Paladin</p>
+          <p class="panel-bar-title">Psion</p>
           <p class="panel-bar-meta">Trackers</p>
         </header>
 
@@ -194,19 +194,32 @@
           <p class="panel-bar-title">Core Talent</p>
           <div class="path-core-layout">
             <div class="path-copy path-copy--core">
-              <p><span class="talent-lead control control--pick-filled"></span><strong>Oathsworn:</strong> You draw power from your three tenets. When you add a thorn from bloodied, rattled, or desperate, you also take +1d. Each session, you have 3 smite. When acting with total conviction, spend it 1-for-1 to drop dice from a task pool after rolling it.</p>
-              <p><strong>Affirmation:</strong> Before each session, state your tenets and discuss how they came up last session. Give spark to one player who joined a scene involving your tenets. Take 1 less smite for each tenet in violation.</p>
-              <p>[GROWTH: 2 levels / +1 smite per session]</p>
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Awakened Mind:</strong> You have spellcasting ability. Choose two bastions below which act as the touchstone for your psionic magic. You can cast spells using Wits, and can make them potent by adding instability, eventually adding increasing thorns to your future spellcasting rolls.</p>
+              <p>You can't cast potent spells once adding +2t from instability. Thorns from instability can't be ignored and reset at the beginning of each session. You gain more slots that don't add instability with growth.</p>
+              <p>[Growth: At levels 3 and 6, gain +1 instability slot at 0d, and +1 bastion.]</p>
             </div>
-            <aside class="tracker-panel tracker-panel--top-7">
-              <p class="tracker-label">Smite</p>
-              <div class="tracker-diamond-grid" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span class="control control--track muted"></span>
-                <span class="control control--track muted"></span>
-                <span class="control control--track muted"></span>
+            <aside class="tracker-panel tracker-panel--top-2_5">
+              <div class="tracker-list" aria-hidden="true">
+                <div class="tracker-cluster">
+                  <p class="tracker-label">+0t</p>
+                  <div class="tracker-box-row">
+                    <span class="talent-checkbox"></span>
+                    <span class="talent-checkbox muted"></span>
+                    <span class="talent-checkbox muted"></span>
+                  </div>
+                </div>
+                <div class="tracker-cluster">
+                  <p class="tracker-label">+1t</p>
+                  <div class="tracker-box-row">
+                    <span class="talent-checkbox"></span>
+                  </div>
+                </div>
+                <div class="tracker-cluster">
+                  <p class="tracker-label">+2t</p>
+                  <div class="tracker-box-row">
+                    <span class="talent-checkbox"></span>
+                  </div>
+                </div>
               </div>
             </aside>
           </div>
@@ -218,81 +231,65 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Aegis:</strong> You take +1d when making a defense roll to protect yourself from physical harm. On a perfect, you can also: keep their attention on you - rekindle hope in an ally - inspire action in a bystander.</p>
-              </div>
-            </article>
-            <article class="talent-row">
-              <div class="talent-picker control control--pick" aria-hidden="true"></div>
-              <div class="path-copy talent-body">
-                <p><strong>Authority:</strong> Your presence fills the air with authority. The GM judges an NPC's response, or you can spend story to set it: admiration - obedience - respect - defiance. You can push yourself to pull off a potent feat of righteous command.</p>
+                <p><strong>Echo:</strong> Once per session, you can create a duplicate as a 3d power pool. It is a second version of you, acting as you with shared knowledge, ability, and resources. You can drop 1d of its pool to have it: assist you - trade places with you.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Push</span>
+                <span>Use</span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Challenge:</strong> Push yourself to challenge a foe, taking +1d on all rolls against them, but give them 1 suspense. If they do anything besides confront you, you can interrupt it. The challenge ends if an ally engages your foe, or your interrupt result is less than a perfect.</p>
+                <p><strong>Foresight:</strong> You can catch small glimpses of the future. Once per session, you can describe a brief course of action while in a calm situation, and the GM will tell you the result. If there's risk, make a montage roll to see how it would play out. Afterward, you can decide whether to take the action.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Push</span>
+                <span>Use</span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Dauntless:</strong> Take spark when your roll is cut. Take +1d on story rolls if dropped. On a perfect, ignore it.</p>
+                <p><strong>Mind Blast:</strong> On a critical on a bastion roll, you don't add instability, instead clearing one. This causes mental collateral damage around you: confusion - hallucinations - headaches - panic. One time only, you can make this a ritual-level effect, affecting all within miles.</p>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Iron Will:</strong> You have spellcasting as the Channel Divinity talent. Detail your god and choose 1 rite, a 4d power pool (per session). You can drop 1d and roll the pool to cast a potent spell.</p>
+                <p><strong>Psychic Warrior:</strong> You're able to turn your psychic volatility against others. You can create weapons made from pure willpower, using them with Wits. You take +1d to follow up with them when you: take vex - increase your instability level.</p>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Reader:</strong> You gain 1 thread per session and can spend thread when you first meet someone to know their foremost surface thought - they are like an open book to you. If you follow-up on it, it counts as a setup.</p>
+              </div>
+              <div class="talent-slot">
+                <span class="talent-checkbox" aria-hidden="true"></span>
+                <span>Thread</span>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Tumultuous Mind:</strong> Your fractured mind bleeds into the consciousness of others. The GM judges an NPC's response, or you can spend thread to set it: agitated - confused - paranoid - forgetful. Once per session, when you would take vex, a nearby creature must take it instead.</p>
+              </div>
+              <div class="talent-slot talent-tag-insp">
+                <span class="talent-checkbox" aria-hidden="true"></span>
+                <span>Goad Vex</span>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Shift Form:</strong> Each session, you have a 2d Shifter resource pool. You can roll the pool to alter your features and form, though you keep the same basic shape.</p>
               </div>
               <div class="talent-slot talent-slot--stack-center">
+                <span class="talent-tag-label">Shift</span>
                 <span class="talent-pool" aria-hidden="true"></span>
               </div>
             </article>
-
-            <div class="paladin-bottom">
-              <div class="paladin-bottom-left">
-                <article class="talent-row talent-row--compact">
-                  <div class="talent-picker control control--pick" aria-hidden="true"></div>
-                  <div class="path-copy talent-body">
-                    <p><strong>Guardian:</strong> Take +1d when you assist on a defense roll. You can also make a defense roll for an ally when they would be affected by an impact move, or push yourself to defend multiple nearby allies from a single attack. (no free activation)</p>
-                  </div>
-                </article>
-                <article class="talent-row talent-row--compact">
-                  <div class="talent-picker control control--pick" aria-hidden="true"></div>
-                  <div class="path-copy talent-body">
-                    <p><strong>Rebuke:</strong> When the GM spends suspense to prompt an impact move, you take +1d on any follow-up action against the source. On a critical, take spark.</p>
-                  </div>
-                </article>
-              </div>
-
-              <section class="tenets-panel">
-                <header class="tenets-header">
-                  <p><strong>Tenets:</strong> mark if in violation. Slash for light, fill for heavy.</p>
-                </header>
-                <div class="tenets-body" aria-hidden="true">
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                </div>
-              </section>
-            </div>
           </div>
         </section>
       </section>
@@ -411,8 +408,8 @@
     </article>
   </main>
   <nav class="sheet-nav" aria-label="Sheet navigation">
-    <a class="sheet-nav-link" href="monk.html" rel="prev">&larr; Previous: Monk</a>
-    <a class="sheet-nav-link sheet-nav-link--next" href="psion.html" rel="next">Next: Psion &rarr;</a>
+    <a class="sheet-nav-link" href="paladin.html" rel="prev">&larr; Previous: Paladin</a>
+    <a class="sheet-nav-link sheet-nav-link--next" href="ranger.html" rel="next">Next: Ranger &rarr;</a>
   </nav>
 </body>
 </html>

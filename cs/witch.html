@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grimwild CE Karta paladina</title>
+  <title>Grimwild CE Karta čarodějnice</title>
   <link rel="stylesheet" href="../sheet.css">
 </head>
 <body>
-  <main class="sheet-workspace" aria-label="Karta postavy paladina pro Grimwild Komunitní vydání">
+  <main class="sheet-workspace" aria-label="Karta postavy čarodějnice pro Grimwild Komunitní vydání">
     <article class="sheet-page" aria-label="Strana postavy">
       <header class="sheet-page-header">
         <div class="sheet-logo-block" aria-label="Logo Grimwild Komunitní vydání">
@@ -184,9 +184,9 @@
     </article>
 
     <article class="sheet-page sheet-page--path" aria-label="Strana cesty">
-      <section class="sheet-panel path-panel">
+      <section class="sheet-panel path-panel path-panel--dense">
         <header class="panel-bar">
-          <p class="panel-bar-title">Paladin</p>
+          <p class="panel-bar-title">Čarodějnice</p>
           <p class="panel-bar-meta">Ukazatele</p>
         </header>
 
@@ -194,21 +194,10 @@
           <p class="panel-bar-title">Hlavní talent</p>
           <div class="path-core-layout">
             <div class="path-copy path-copy--core">
-              <p><span class="talent-lead control control--pick-filled"></span><strong>Přísaha:</strong> Čerpáš moc ze svých tří zásad. Když přidáš trn za zakrvácení, otřesení nebo stav na hraně, získáš také +1 kostku. Každé sezení máš 3 boží zásahy. Když jednáš s naprostým přesvědčením, utrať je 1 za 1 po hodu a odeber kostky z banku úkolu.</p>
-              <p><strong>Ujištění:</strong> Před každým sezením řekni své zásady a proberte, jak se projevily minule. Dej jiskru hráči, který se zapojil do scény s tvými zásadami. Za každou porušenou zásadu máš o 1 boží zásah méně.</p>
-              <p>[Růst: 2 úrovně / +1 boží zásah za sezení]</p>
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Slova moci:</strong> Rozumíš prastaré magii přítomné ve světě. Umíš kouzlit hodem Charismem a jako ohniska používáš libovolná 2 slova moci. Když slovo použiješ, spálíš ho; nemůžeš ho použít znovu do dalšího sezení. Když máš čas, můžeš kouzlo učinit mocným. Začínáš se 6 slovy moci z tyglíku. Kouzla bez rizika automaticky uspějí a nespalují slova, pokud nejsou mocná.</p>
+              <p><strong>Ritualista:</strong> Máš +1 kostku při dokončování vzývání rituálů a můžeš používat relevantní slova moci jako kotvy.</p>
+              <p>[Růst: Na úrovních 2, 4 a 6 získej +2 slova moci.]</p>
             </div>
-            <aside class="tracker-panel tracker-panel--top-7">
-              <p class="tracker-label">Zásah</p>
-              <div class="tracker-diamond-grid" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span class="control control--track muted"></span>
-                <span class="control control--track muted"></span>
-                <span class="control control--track muted"></span>
-              </div>
-            </aside>
           </div>
         </section>
 
@@ -218,13 +207,19 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Égida:</strong> Máš +1 kostku na hod na obranu, když se chráníš před fyzickou újmou. Při dokonalém výsledku můžeš také: udržet jejich pozornost na sobě - zažehnout naději ve spojenci - inspirovat kolemjdoucího k akci.</p>
+                <p><strong>Hájemství:</strong> Ostatní čarodějnice tě znají podle titulu a moci tvé magické domény - tvého hájemství. Vyber 1 slovo moci. Můžeš spálit libovolné jiné slovo, abys ho použila, a při kritickém úspěchu obnovíš použití všech slov.</p>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Autorita:</strong> Tvá přítomnost naplňuje vzduch autoritou. Vypravěč určí reakci NPC, nebo utrať narativní bod a nastav ji: obdiv - poslušnost - respekt - vzdor. Můžeš se překonat pro mocný čin spravedlivého velení.</p>
+                <p><strong>Zlé oko:</strong> Hoď Charismem, když někoho uhraneš: děsem - nemotorností - zmatkem - zapomnětlivostí - smůlou - ospalostí. Urči, kdy se projeví: teď - brzy - mnohem později - konkrétním spouštěčem. Tato magie na někoho funguje jen jednou.</p>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Familiar:</strong> Projevíš malou magickou bytost. Komunikujete telepaticky, používáš její smysly a posíláš ji na jednoduché úkoly; hoď na příběh, jak to dopadne. Můžeš se také překonat a seslat kouzlo skrze ni. Pokud utrpí zranění, zmizí a objeví se na začátku další scény.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
@@ -234,65 +229,37 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Výzva:</strong> Překonej se a vyzvi nepřítele; máš +1 kostku na všechny hody proti němu, ale dej mu 1 napětí. Pokud dělá cokoli kromě střetu s tebou, můžeš ho přerušit. Výzva končí, když se do něj pustí spojenec nebo tvé přerušení není dokonalé.</p>
-              </div>
-              <div class="talent-slot">
-                <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Překonat</span>
-              </div>
-            </article>
-            <article class="talent-row">
-              <div class="talent-picker control control--pick" aria-hidden="true"></div>
-              <div class="path-copy talent-body">
-                <p><strong>Neohrožený:</strong> Získej jiskru, když je tvůj hod snížen. Máš +1 kostku na hody, když jsi vyřazený. Při dokonalém výsledku to ignoruj.</p>
-              </div>
-            </article>
-            <article class="talent-row">
-              <div class="talent-picker control control--pick" aria-hidden="true"></div>
-              <div class="path-copy talent-body">
-                <p><strong>Železná vůle:</strong> Umíš kouzlit jako s talentem Božská přítomnost. Popiš svého boha a vyber 1 obřad, bank 4 kostek moci za sezení. Můžeš odhodit 1 kostku a hodit bank pro mocné kouzlo.</p>
+                <p><strong>Bylinkářství:</strong> Před každým sezením použij bylinkářský tyglík (str. 83) a vytvoř dvě jména bylin. Každé sezení máš 1 triviální a 1 slabší lektvar, vybrané při použití. Jméno je ohnisko. Jen jednou můžeš mít 1 silný lektvar.</p>
               </div>
               <div class="talent-slot talent-slot--stack-center">
+                <span class="talent-tag-label">Slabší</span>
+                <span class="talent-checkbox" aria-hidden="true"></span>
+                <span class="talent-tag-label">Silný</span>
+                <span class="talent-checkbox" aria-hidden="true"></span>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Útulná chýše:</strong> Když máš čas, můžeš požehnat domovu, aby překypoval mocí. Na jeho pozemku máš vnější pomoc ke všem hodům. Dej mu dva podivuhodné rysy, třeba: putující - rituální kotva - léčivý - opatrovník. Najednou můžeš mít jen jeden takový domov.</p>
+              </div>
+            </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Věštkyně:</strong> Jednou za sezení můžeš označit ducha v okolí. Nabídne bank 3 kostek ducha, který se hází jako bonusové kostky, když ty nebo spojenec vzýváte jeho doménu. Na oplátku může žádat pomoc. Domény duchů mohou být: řeky - noční obloha - umění - chlupatá zvířátka.</p>
+              </div>
+              <div class="talent-slot talent-slot--stack-center">
+                <span class="talent-tag-label">Duchové</span>
                 <span class="talent-pool" aria-hidden="true"></span>
               </div>
             </article>
-
-            <div class="paladin-bottom">
-              <div class="paladin-bottom-left">
-                <article class="talent-row talent-row--compact">
-                  <div class="talent-picker control control--pick" aria-hidden="true"></div>
-                  <div class="path-copy talent-body">
-                    <p><strong>Ochránce:</strong> Máš +1 kostku, když pomáháš s hodem na obranu. Můžeš také hodit na obranu za spojence zasaženého určením následků, nebo se překonat a bránit několik blízkých spojenců před jedním útokem. (bez volného spuštění)</p>
-                  </div>
-                </article>
-                <article class="talent-row talent-row--compact">
-                  <div class="talent-picker control control--pick" aria-hidden="true"></div>
-                  <div class="path-copy talent-body">
-                    <p><strong>Pokárání:</strong> Když vypravěč utratí napětí pro určení následků, máš +1 kostku na navazující akci proti zdroji. Při kritickém úspěchu získej jiskru.</p>
-                  </div>
-                </article>
+            <article class="talent-row">
+              <div class="talent-picker control control--pick" aria-hidden="true"></div>
+              <div class="path-copy talent-body">
+                <p><strong>Magnet na zázraky:</strong> Při kouzlení můžeš způsobovat divoké přívaly jako magický zvrat u Čarodějnictví. Když se spustí, hoď na příběh 3 kostkami pro výsledek. Při dokonalém výsledku získej jiskru. Když se dějí divné věci, dějí se ti.</p>
               </div>
-
-              <section class="tenets-panel">
-                <header class="tenets-header">
-                  <p><strong>Zásady:</strong> označ porušené. Šikmá čára lehké, výplň těžké.</p>
-                </header>
-                <div class="tenets-body" aria-hidden="true">
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                  <div class="tenets-row">
-                    <span class="control control--tenet"></span>
-                    <div class="tenets-line"></div>
-                  </div>
-                </div>
-              </section>
-            </div>
+            </article>
           </div>
         </section>
       </section>
@@ -411,8 +378,8 @@
     </article>
   </main>
   <nav class="sheet-nav" aria-label="Navigace mezi kartami">
-    <a class="sheet-nav-link" href="monk.html" rel="prev">&larr; Předchozí: Mnich</a>
-    <a class="sheet-nav-link sheet-nav-link--next" href="psion.html" rel="next">Další: Psion &rarr;</a>
+    <a class="sheet-nav-link" href="warlock.html" rel="prev">&larr; Předchozí: Černokněžník</a>
+    <a class="sheet-nav-link sheet-nav-link--next" href="wizard.html" rel="next">Další: Kouzelník &rarr;</a>
   </nav>
 </body>
 </html>
