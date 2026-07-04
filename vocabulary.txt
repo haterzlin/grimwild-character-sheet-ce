@@ -1,0 +1,377 @@
+# Grimwild CZ vocabulary - starter glossary
+# Format: English<TAB>Czech<TAB>Note
+# This is a working draft for the Czech translation project.
+
+# Core gameplay
+Grimwild	Grimwild	Název hry se nepřekládá.
+Community Edition	Komunitní vydání	
+preview	náhled	
+gameplay	hraní / herní chod	Podle kontextu.
+core rules	základní pravidla	
+action roll	akční hod	
+defense roll	hod na obranu
+story roll	hod na příběh
+montage roll	montážní hod	
+result	výsledek	
+critical	kritický úspěch	
+perfect	dokonalý	
+messy	komplikovaný
+grim	chmurný	Výsledek je neúspěch s potížemi.
+disaster	katastrofa	
+risk	riziko	
+vantage	kompetence	
+vantage scale	stupeň kompetence	
+certain	jistý	
+reasonable	uvěřitelný / rozumný	Podle kontextu.
+doubtful	pochybný	
+impossible	nemožný	
+thorns	trny	D8, které zhoršují výsledek.
+cut	snížení	V pravidlech znamená zhrošení výsledku o jeden stupeň.
+spark	jiskra	Herní zdroj protagonistické energie.
+assist	vypomoct / pomoct	V akci spíše "pomoc".
+setup	příprava / nahrávka	Mechanicky vytváří výhodu pro navazující akci.
+critical bonus	kritický bonus	
+greater effect	větší účinek	
+secondary effect	vedlejší účinek	
+working together	spolupráce	
+teamwork	týmová spolupráce	
+outside help	vnější pomoc	
+smooth flow	plynulost hry	
+
+# Character and sheet terms
+adventurer	dobrodruh	
+adventuring party	družina	
+character creation	tvorba postavy	
+character sheet	karta postavy	Při sazbě lze zvážit i "list postavy".
+background	zázemí	
+backgrounds	zázemí	
+wise	znalost	
+trait	povahový rys	
+traits	rysy	
+desire	touha	
+desires	touhy	
+Brave	statečný	
+Caring	starostlivý	
+Confident	sebevědomý	
+Curious	zvídavý	
+Gentle	laskavý	
+Honest	upřímný	
+Honorable	čestný	
+Persistent	vytrvalý	
+Protective	ochranitelský	
+Quiet	tichý	
+Rash	ukvapený	
+Stubborn	tvrdohlavý	
+Belonging	sounáležitost	
+Glory	sláva	
+Harmony	harmonie	
+Honor	čest	
+Justice	spravedlnost	
+Knowledge	poznání	
+Love	láska	
+Power	moc	
+Renown	věhlas	
+Thrills	vzrušení	
+Wealth	bohatství	
+Wisdom	moudrost	
+distinctive feature	výrazný rys	
+distinctive features	výrazné rysy	
+features	výrazné rysy	
+path	cesta	
+talent	talent	
+talents	talenty	
+core talent	hlavní talent	
+path talent	talent cesty	
+path talents	talenty cesty	
+epithet	přívlastek	
+stat	vlastnost	
+stats	vlastnosti	
+Brawn	Zdatnost	
+Agility	Hbitost	
+Wits	Důvtip	
+Presence	Charisma
+name	jméno	
+trackers	ukazatele / sledovače	Na kartě spíše "ukazatele".
+bond	pouto	
+bonds	pouta	
+story arc	příběhová linka	
+story arcs	příběhové linky	
+group arc	skupinová linka	
+character arc	osobní linka	
+character	postava	
+weapon style	styl zbraně	
+detail	detail	
+set dressing	dokreslení fikce	
+story detail	příběhový detail	
+creative freedom	tvůrčí volnost	
+quarrel	spor	
+you are	jsi	
+you're not	nejsi	
+you want	chceš	
+you don't	nechceš	
+
+# Damage and conditions
+damage and recovery	zranění a zotavení	
+mark	značka	Lehké dočasné postižení.
+marks	značky	
+harm	újma	
+bloodied	zakrvácený	Fyzická újma.
+rattled	otřesený	Psychická nebo emocionální újma.
+desperate	na hraně	Krajní stav před vyřazením.
+dropped	vyřazený	Mimo scénu.
+vex	rozrušení	Silná emoce s okamžitou reakcí.
+condition	stav	
+conditions	stavy	
+daunted	zastrašený / znejistěný	Podle kontextu.
+strained	vypjatý / přetížený	
+unsteady	nejistý	
+winded	zadýchaný	
+battered	potlučený	
+confused	zmatený	
+urgent	naléhavý	
+short-term	krátkodobý	
+long-term	dlouhodobý	
+permanent	trvalý	
+healing	léčení	
+treatment	ošetření / léčba	Podle kontextu.
+downtime	mezidobí	
+hurt	zraněný / zasažený	Spíš jen pokud se objeví na kartě nebo v talentech.
+
+# Magic
+spellcasting	kouzlení / sesílání magie	Podle kontextu.
+spell	kouzlo	
+potent spell	mocné kouzlo	
+ritual	rituál	
+touchstone	ohnisko	
+touchstones	ohniska	
+potency	moc / potentnost	Klíčový termín; "moc" je přirozenější, ale širší.
+potent action	mocná akce	
+arcana	arkana	
+artifact	artefakt	
+magic effect examples	příklady magických účinků	
+spellcraft	kouzlotvorba / magické řemeslo	Jméno talentu; termín z karty.
+spells	kouzla	
+potent	mocný / mocné	Zkratkový štítkový termín na kartě.
+major	hlavní / velký / silný	Podle kontextu zdroje nebo trackeru.
+minor	vedlejší / menší / slabší	Podle kontextu zdroje nebo trackeru.
+magic path	magická cesta	
+magic paths	magické cesty	
+technique	technika	
+techniques	techniky	
+spell theorem	teorém kouzla	
+spell theorems	teorémy kouzel	
+school	škola	
+specialty school	specializovaná škola	
+power pool	bank moci
+resource pool	bank zdrojů
+components	komponenty	
+component pouch	brašna s komponenty	
+essence	esence	
+wild surge	divoký příval	
+trance	trance	
+focus	zaměření
+familiar beast form	známá zvířecí podoba	
+
+# GM toolkit
+GM	vypravěč	Lze ponechat i "GM".
+GM toolkit	nástroje pro vypravěče	
+GM rules	pravidla pro vypravěče	
+GM move	tah vypravěče	
+suspense	napětí	Herní zásoba rostoucího napětí.
+suspense move	stupňování napětí	
+impact move	určení následků	
+consequence	následek	
+consequences	následky	
+stakes	sázky / míra nebezpečí	Spíš "míra nebezpečí" v textu, "sázky" jako doslovný termín.
+low stakes	nízké sázky / nízké nebezpečí	
+regular stakes	běžné sázky / běžné nebezpečí	
+high stakes	vysoké sázky / vysoké nebezpečí	
+dire stakes	smrtící sázky / krajní nebezpečí	
+challenge	výzva	
+task pool	bank kostek úkolu
+pool	bank kostek
+pressure pool	tlakový bank kostek
+timer pool	časový bank kostek
+fail state	podmínka selhání	
+vigilance	obezřetnost	
+reveal	odhalení	
+hint	náznak	
+strike	úder	
+combat kit	bojová sada	
+faction	frakce	
+factions	frakce	
+campaign pool	kampaňový pool	
+crucible    katalyzátor
+
+# Session structure
+session	sezení	
+pre-session	před sezením	
+experience	zkušenosti	
+level	úroveň	
+growth	růst / postup	Na kartě jde o popis zlepšení s úrovní.
+starting a campaign	zahájení kampaně	
+example of play	ukázka hry	
+
+# Sheet economy and recurring tracker labels
+story	narativní bod	
+spend story	utrať narativní bod	Odvozeno od potvrzeného termínu "story".
+take spark	získej jiskru	
+interrupt	přerušení / přerušit	Mechanická akce; je třeba sjednotit jako sloveso nebo podst. jméno.
+push	překonat se	
+push yourself	překonat se	
+goad	vyprovokovat / popíchnout	Na kartách jako štítek schopnosti.
+inspiration	inspirace	
+frenzy	berserk / zuřivost	Je třeba vybrat finální styl.
+wild shape	zvířecí podoba	
+wild shape pool	bank kostek proměny
+mastery	mistrovství	
+rites	obřady / rituály
+rite	obřad / rituál
+rite pool	bank kostek pro rituál
+omen	znamení	
+omens	znamení	
+bulwark	ochrana
+competence	kompetence	
+quarry	kořist / cíl lovu	
+flow	proudění	
+smite	trestající rána / boží zásah	
+hex	kletba / uhranutí	
+patience	trpělivost	
+affliction	trápení / postižení	Jen pokud bude potřeba u warlocka.
+animal companion	zvířecí společník	
+familiar	familiar
+tenet	zásada
+tenets	zásady	
+trophy	trofej	
+trophies	trofeje	
+authority	autorita	
+discipline	disciplína	
+quarry pool	bank kostek kořisti	
+competence pool	bank kostek kompetence	
+spelleater pool	bank kostek pohlcovače kouzel	Pracovní překlad, navázaný na název talentu.
+bulwark resource pool	bank zdrojů ochrany	
+potion	lektvar
+potions	lektvary	
+major potion	silný lektvar	
+minor potion	slabší lektvar	
+GM takes suspense	Vypravěč získá bod napětí	Ustálená formulace pro text pravidel.
+
+# Paths and talent names from character sheets
+path: Bard	Bard	
+path: Berserker	Berserk	
+path: Cleric	Klerik	
+path: Druid	Druid	
+path: Fighter	Bojovník	
+path: Monk	Mnich	
+path: Paladin	Paladin	
+path: Ranger	Hraničář	
+path: Rogue	Tulák	
+path: Sorcerer	Čaroděj	
+path: Warlock	Černokněžník	
+path: Wizard	Kouzelník	
+
+talent: Inspiration	Inspirace	
+talent: Bardic Lore	Bardská moudrost	
+talent: Dynamic Entrance	Dynamický nástup	
+talent: Folk Hero	Lidový hrdina	
+talent: Forked Tongue	Sedmilhář
+talent: Friendly Face	Přívětivá tvář	
+talent: Jack of All Trades	Všeuměl	
+talent: Wordplay	Hra se slovy	
+
+talent: Frenzy	Zuřivost	
+talent: Fearsome	Hrozivý	
+talent: Flesh Wounds	Jenom škrábnutí
+talent: Into the Fray	Hrr na ně	
+talent: Joyful Warrior	Radostný válečník	
+talent: Mighty	Silák	
+talent: Overkill	S kanónem na vrabce
+talent: Warcry	Válečný pokřik	
+
+talent: Channel Divinity	Božská přítomnost	
+talent: Blessed	Požehnaný	
+talent: Devout	Zbožný	
+talent: Healer	Léčitel	
+talent: Iron Will	Železná vůle	
+talent: Rings False	Falešný tón	
+talent: Sermons	Kázání	
+
+talent: Wild Shape	Divoká podoba	
+talent: Augury	Věštba	
+talent: Awaken	Probuzení	
+talent: Herbalism	Bylinkářství	
+talent: Kindred Spirits	Spřízněné duše	
+talent: Primordial Bonds	Prvotní pouta	
+talent: True Shape	Pravá podoba	
+talent: Windcaller	Vládce větru	
+
+talent: Weapon Mastery	Mistrovství se zbraní	
+talent: Arcane Training	Mystický výcvik	
+talent: Bulwark	Ochrana	
+talent: Control	Kontrola	
+talent: Got Your Back	Kryju ti záda	
+talent: Measured Tones	Odměřené tóny	
+talent: Swift Recovery	Rychlé zotavení	
+talent: Tactician	Taktik	
+
+talent: Discipline	Disciplína	
+talent: Elegant Maneuvers	Elegantní manévry	
+talent: Flurry	Smršť	
+talent: Healing Hands	Léčivé ruce	
+talent: Lightning Reflexes	Bleskové reflexy	
+talent: Mind Over Matter	Mysl nad hmotou	
+talent: Tether	Pouto	
+talent: There Is No Try	Není žádné "zkusím"	
+
+talent: Oathsworn	Přísaha	
+talent: Aegis	Égida	
+talent: Authority	Autorita	
+talent: Challenge	Výzva	
+talent: Dauntless	Neohrožený	
+talent: Guardian	Ochránce	
+talent: Rebuke	Pokárání	
+
+talent: Quarry	Kořist	
+talent: Animal Companion	Zvířecí společník	
+talent: Keen Senses	Ostré smysly	
+talent: Relentless	Neúnavný	
+talent: Scout Ahead	Průzkum	
+talent: Spot Weakness	Odhal slabinu	
+talent: Sharpshooter	Ostrostřelec	
+talent: Trophies	Trofeje	
+
+talent: Expertise	Odbornost	
+talent: According to Plan	Podle plánu	
+talent: Cunning Actions	Vychytralé akce	
+talent: Eldritch Affinity	Krev prastarého	
+talent: Lurker	Stín	
+talent: Opportunist	Oportunista	
+talent: Poisoner	Travič	
+talent: Weasel	Vykroutit se	
+
+talent: Sorcery	Čarodějnictví	
+talent: Eldritch Growth	Prastará mutace
+talent: Maelstrom	Vír	
+talent: Magic Sense	Vnímání magie	
+talent: Metamagic	Metamagie	
+talent: Spelleater	Pojídač kouzel	
+talent: Wisps	Bludičky	
+talent: Wrath	Hněv	
+
+talent: Hex	Kletba	
+talent: Affliction	Trýznivý dotek	
+talent: Eldritch Weaponry	Prastará zbraň	
+talent: Knowing Gaze	Vědoucí pohled	
+talent: Otherworldly Form	Podoba z jiného světa	
+talent: Ritualist	Ritualista	
+talent: Visions	Vize	
+talent: Wayfarer	Poutník	
+
+talent: Spellcraft	Kouzlení	
+talent: Alchemist	Alchymista	
+talent: Archivist	Archivář	
+talent: Component Pouch	Brašna s přísadami
+talent: Colleagues	Kolegové	
+talent: Familiar	Familiar	
+talent: Mastered Theorem	Zvládnutý teorém	
+talent: Specialty School	Specializovaná škola	
