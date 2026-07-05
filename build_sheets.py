@@ -57,7 +57,7 @@ EN_NAMES = {
 
 CS_NAMES = {
     "adventurer": "Dobrodruh",
-    "artificer": "Artefaktář",
+    "artificer": "Vynálezce",
     "bard": "Bard",
     "berseker": "Berserk",
     "cleric": "Klerik",
@@ -78,7 +78,7 @@ CS_NAMES = {
 
 CS_GENITIVE = {
     "adventurer": "dobrodruha",
-    "artificer": "artefaktáře",
+    "artificer": "vynálezce",
     "bard": "barda",
     "berseker": "berserka",
     "cleric": "klerika",
@@ -599,7 +599,7 @@ CS_BASE_REPLACEMENTS = [
 
 CS_PANEL_REPLACEMENTS = {
     "artificer": [
-        ("Artificer", "Artefaktář"),
+        ("Artificer", "Vynálezce"),
         ("""<strong>Ingenuity:</strong> You harness the power of creativity. You know 6 touchstones from the arcana crucibles, and have created 2 major arcana using them. Anyone can use them with the most relevant stat (as arcana), though it always carries risk for those other than you. Given time, you can: rebuild them using any other touchstones you know - pull off a potent feat of mechanical ingenuity. You can push yourself to do it on the spot.""", """<strong>Vynalézavost:</strong> Spoutáváš moc tvořivosti. Znáš 6 ohnisek z tyglíků arkan a vytvořil jsi pomocí nich 2 silná arkana. Kdokoli je může použít s nejvhodnější vlastností jako arkana, pro každého kromě tebe však vždy nesou riziko. Když máš čas, můžeš je přestavět s jinými známými ohnisky nebo provést mocný čin mechanické vynalézavosti. Můžeš se překonat a zvládnout to okamžitě."""),
         ("""<strong>Engineer:</strong> Take +1d at creating, repairing, or destroying mechanisms and arcana. You can also deconstruct arcana to learn their touchstones, destroying them in the process.""", """<strong>Inženýr:</strong> Máš +1 kostku při vytváření, opravách nebo ničení mechanismů a arkan. Arkana můžeš také rozebrat a naučit se jejich ohniska; tím je zničíš."""),
         ("[Growth: At levels 2, 4, and 6, gain +1 major arcana and +2 learned touchstones.]", "[Růst: Na úrovních 2, 4 a 6 získej +1 silnou arkanu a +2 naučená ohniska.]"),

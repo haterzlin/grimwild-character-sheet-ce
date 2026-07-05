@@ -41,6 +41,7 @@ smooth flow	plynulost hry
 
 # Character and sheet terms
 adventurer	dobrodruh	
+artificer	vynálezce	Jméno cesty; méně doslovné než "artefaktář", ale přirozenější pro tvůrce věcí.
 adventuring party	družina	
 character creation	tvorba postavy	
 character sheet	karta postavy	Při sazbě lze zvážit i "list postavy".
