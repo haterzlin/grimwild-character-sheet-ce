@@ -260,6 +260,7 @@ minor potion	slabší lektvar
 GM takes suspense	Vypravěč získá bod napětí	Ustálená formulace pro text pravidel.
 
 # Paths and talent names from character sheets
+path: Arificer  Vynálezce
 path: Bard	Bard	
 path: Berserker	Berserk	
 path: Cleric	Klerik	
@@ -267,10 +268,14 @@ path: Druid	Druid
 path: Fighter	Bojovník	
 path: Monk	Mnich	
 path: Paladin	Paladin	
+path: Psion     Psionik
 path: Ranger	Hraničář	
 path: Rogue	Tulák	
 path: Sorcerer	Čaroděj	
-path: Warlock	Černokněžník	
+path: Summoner  Vyvolávač
+path: Swashbuckler  Švihák
+path: Warlock	Černokněžník
+path: Witch     Vědma	
 path: Wizard	Kouzelník	
 
 talent: Inspiration	Inspirace	
