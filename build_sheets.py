@@ -72,7 +72,7 @@ CS_NAMES = {
     "summoner": "Vyvolávač",
     "swashbuckler": "Švihák",
     "warlock": "Černokněžník",
-    "witch": "Čarodějnice",
+    "witch": "Vědma",
     "wizard": "Kouzelník",
 }
 
@@ -93,7 +93,7 @@ CS_GENITIVE = {
     "summoner": "vyvolávače",
     "swashbuckler": "Šviháka",
     "warlock": "černokněžníka",
-    "witch": "čarodějnice",
+    "witch": "vědmu",
     "wizard": "kouzelníka",
 }
 
@@ -664,11 +664,11 @@ CS_PANEL_REPLACEMENTS = {
         ("Goad", "Vyvolej"),
     ],
     "witch": [
-        ("Witch", "Čarodějnice"),
+        ("Witch", "Vědma"),
         ("""<strong>Words of Power:</strong> You understand the ancient magic inherent in the world. You have spellcasting ability, rolling Presence to cast using any 2 words of power as the touchstones. When you use a word, burn it - you can't use it again until the next session. Given time, you can make this spell potent. You begin with 6 words of power from the crucible. Spells without risk are automatically successful and don't burn words, unless potent.""", """<strong>Slova moci:</strong> Rozumíš prastaré magii přítomné ve světě. Umíš kouzlit hodem Charismem a jako ohniska používáš libovolná 2 slova moci. Když slovo použiješ, spálíš ho; nemůžeš ho použít znovu do dalšího sezení. Když máš čas, můžeš kouzlo učinit mocným. Začínáš se 6 slovy moci z tyglíku. Kouzla bez rizika automaticky uspějí a nespalují slova, pokud nejsou mocná."""),
         ("""<strong>Ritualist:</strong> Take +1d when completing ritual invocations, and you can use relevant words of power as anchors.""", """<strong>Ritualista:</strong> Máš +1 kostku při dokončování vzývání rituálů a můžeš používat relevantní slova moci jako kotvy."""),
         ("[Growth: At levels 2, 4, and 6, gain +2 words of power.]", "[Růst: Na úrovních 2, 4 a 6 získej +2 slova moci.]"),
-        ("""<strong>Bailiwick:</strong> You are known to other witches by a title and the power inherent in your magical domain - your Bailiwick. Choose 1 word of power. You can burn any other word to use it, and on a critical, you regain the use of all words.""", """<strong>Hájemství:</strong> Ostatní čarodějnice tě znají podle titulu a moci tvé magické domény - tvého hájemství. Vyber 1 slovo moci. Můžeš spálit libovolné jiné slovo, abys ho použila, a při kritickém úspěchu obnovíš použití všech slov."""),
+        ("""<strong>Bailiwick:</strong> You are known to other witches by a title and the power inherent in your magical domain - your Bailiwick. Choose 1 word of power. You can burn any other word to use it, and on a critical, you regain the use of all words.""", """<strong>Hájemství:</strong> Ostatní vědmy tě znají podle titulu a moci tvé magické domény - tvého hájemství. Vyber 1 slovo moci. Můžeš spálit libovolné jiné slovo, abys ho použila, a při kritickém úspěchu obnovíš použití všech slov."""),
         ("""<strong>Evil Eye:</strong> You can roll Presence to hex someone with: dread - clumsiness - confusion - forgetfulness - misfortune - sleepiness. Decide when it takes effect: now - soon - much later - specific trigger. This magic only works on someone once.""", """<strong>Zlé oko:</strong> Hoď Charismem, když někoho uhraneš: děsem - nemotorností - zmatkem - zapomnětlivostí - smůlou - ospalostí. Urči, kdy se projeví: teď - brzy - mnohem později - konkrétním spouštěčem. Tato magie na někoho funguje jen jednou."""),
         ("""<strong>Familiar:</strong> You manifest a small magical creature. You can communicate telepathically, use its senses, and send it on simple tasks, making a story roll to see how it goes. You can also push yourself to cast a spell through it. If your familiar takes damage, it vanishes and reappears at the start of the next scene.""", """<strong>Familiar:</strong> Projevíš malou magickou bytost. Komunikujete telepaticky, používáš její smysly a posíláš ji na jednoduché úkoly; hoď na příběh, jak to dopadne. Můžeš se také překonat a seslat kouzlo skrze ni. Pokud utrpí zranění, zmizí a objeví se na začátku další scény."""),
         ("""<strong>Herbalism:</strong> Before each session, use the herbalism crucible (pg. 83) to make two herb names. Each session, you have 1 trivial and 1 minor potion, chosen when they're used. The name is the touchstone. One time only, you can have 1 major potion.""", """<strong>Bylinkářství:</strong> Před každým sezením použij bylinkářský tyglík (str. 83) a vytvoř dvě jména bylin. Každé sezení máš 1 triviální a 1 slabší lektvar, vybrané při použití. Jméno je ohnisko. Jen jednou můžeš mít 1 silný lektvar."""),
