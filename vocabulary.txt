@@ -27,6 +27,7 @@ doubtful	pochybný
 impossible	nemožný	
 thorns	trny	D8, které zhoršují výsledek.
 cut	snížení	V pravidlech znamená zhrošení výsledku o jeden stupeň.
+tangle	komplikace / zádrhel	Na kartě: "introduce a tangle" = "zkomplikuj situaci".
 spark	jiskra	Herní zdroj protagonistické energie.
 assist	vypomoct / pomoct	V akci spíše "pomoc".
 setup	příprava / nahrávka	Mechanicky vytváří výhodu pro navazující akci.
@@ -213,8 +214,9 @@ starting a campaign	zahájení kampaně
 example of play	ukázka hry	
 
 # Sheet economy and recurring tracker labels
-story	narativní bod	
-spend story	utrať narativní bod	Odvozeno od potvrzeného termínu "story".
+thread	zápletka	Meta-currency formerly called "story".
+threads	zápletky	
+spend thread	vnést zápletku	Odvozeno od potvrzeného termínu "thread".
 take spark	získej jiskru	
 interrupt	přerušení / přerušit	Mechanická akce; je třeba sjednotit jako sloveso nebo podst. jméno.
 push	překonat se	
