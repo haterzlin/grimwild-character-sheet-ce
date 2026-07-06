@@ -164,7 +164,7 @@ spell theorem	teorém kouzla
 spell theorems	teorémy kouzel	
 school	škola	
 specialty school	specializovaná škola	
-power pool	bank moci
+power pool	silový bank
 resource pool	bank zdrojů
 components	komponenty	
 component pouch	brašna s komponenty	
@@ -256,11 +256,12 @@ bulwark resource pool	bank zdrojů ochrany
 potion	lektvar
 potions	lektvary	
 major potion	silný lektvar	
-minor potion	slabší lektvar	
+minor potion	slabší lektvar
+major arcana	silná arkána
 GM takes suspense	Vypravěč získá bod napětí	Ustálená formulace pro text pravidel.
 
 # Paths and talent names from character sheets
-path: Arificer  Vynálezce
+path: Artificer	Vynálezce
 path: Bard	Bard	
 path: Berserker	Berserk	
 path: Cleric	Klerik	
@@ -387,7 +388,7 @@ talent: Specialty School	Specializovaná škola
 talent: Ingenuity	Vynalézavost	
 talent: Engineer	Inženýr	
 talent: Animate Objects	Oživování předmětů	
-talent: Artificial Parts	Umělé části	
+talent: Artificial Parts	Umělé části těla	
 talent: Grenades	Granáty	
 talent: Magnum Opus	Magnum opus	
 talent: Mischief Maker	Potížista	
