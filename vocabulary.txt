@@ -203,7 +203,7 @@ combat kit	bojová sada
 faction	frakce	
 factions	frakce	
 campaign pool	kampaňový pool	
-crucible    katalyzátor
+crucible	katalyzátor
 
 # Session structure
 session	sezení	
@@ -383,3 +383,48 @@ talent: Colleagues	Kolegové
 talent: Familiar	Familiar	
 talent: Mastered Theorem	Zvládnutý teorém	
 talent: Specialty School	Specializovaná škola	
+
+talent: Ingenuity	Vynalézavost	
+talent: Engineer	Inženýr	
+talent: Animate Objects	Oživování předmětů	
+talent: Artificial Parts	Umělé části	
+talent: Grenades	Granáty	
+talent: Magnum Opus	Magnum opus	
+talent: Mischief Maker	Potížista	
+talent: Trap Making	Výroba pastí	
+talent: Wandslinger	Mistr hůlky	
+
+talent: Awakened Mind	Probuzená mysl	
+talent: Echo	Ozvěna	
+talent: Foresight	Předtucha	
+talent: Mind Blast	Mentální výbuch	
+talent: Psychic Warrior	Psychický válečník	
+talent: Reader	Čtenář	
+talent: Tumultuous Mind	Bouřlivá mysl	
+talent: Shift Form	Proměna podoby	
+
+talent: Vassal	Vazal	
+talent: Binding Word	Svazující slovo	
+talent: Fierce Protector	Divoký ochránce	
+talent: Ley Magic	Magie ley linií	
+talent: Monster Menagerie	Bestiář	
+talent: Pocket Plane	Kapesní sféra	
+talent: Portal Network	Síť portálů	
+talent: Shared Soul	Sdílená duše	
+
+talent: Panache	Švih	
+talent: Quick Wit	Pohotový vtip	
+talent: Audacity	Drzost	
+talent: Fancy Footwork	Elegantní kroky	
+talent: Improvise	Improvizace	
+talent: Lucky	Štístko	
+talent: Natural Moxie	Přirozená kuráž	
+talent: Provoke	Provokace	
+talent: The Legend Of...	Legenda o...	
+
+talent: Words of Power	Slova moci	
+talent: Bailiwick	Hájemství	
+talent: Evil Eye	Zlé oko	
+talent: Homely Hovel	Útulná chýše	
+talent: Soothsayer	Věštkyně	
+talent: Wonder Magnet	Magnet na zázraky	
