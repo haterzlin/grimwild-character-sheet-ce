@@ -233,7 +233,7 @@ rite	obřad / rituál
 rite pool	bank kostek pro rituál
 omen	znamení	
 omens	znamení	
-bulwark	ochrana
+bulwark	záštita
 competence	kompetence	
 quarry	kořist / cíl lovu	
 flow	proudění	
@@ -252,7 +252,7 @@ discipline	disciplína
 quarry pool	bank kostek kořisti	
 competence pool	bank kostek kompetence	
 spelleater pool	bank kostek pohlcovače kouzel	Pracovní překlad, navázaný na název talentu.
-bulwark resource pool	bank zdrojů ochrany	
+bulwark resource pool	bank zdrojů záštity	
 potion	lektvar
 potions	lektvary	
 major potion	silný lektvar	
@@ -310,13 +310,14 @@ talent: Augury	Věštba
 talent: Awaken	Probuzení	
 talent: Herbalism	Bylinkářství	
 talent: Kindred Spirits	Spřízněné duše	
+talent: Primal Growth	Prvotní růst
 talent: Primordial Bonds	Prvotní pouta	
 talent: True Shape	Pravá podoba	
 talent: Windcaller	Vládce větru	
 
 talent: Weapon Mastery	Mistrovství se zbraní	
 talent: Arcane Training	Mystický výcvik	
-talent: Bulwark	Ochrana	
+talent: Bulwark	Záštita	
 talent: Control	Kontrola	
 talent: Got Your Back	Kryju ti záda	
 talent: Measured Tones	Odměřené tóny	
@@ -324,11 +325,11 @@ talent: Swift Recovery	Rychlé zotavení
 talent: Tactician	Taktik	
 
 talent: Discipline	Disciplína	
-talent: Elegant Maneuvers	Elegantní manévry	
-talent: Flurry	Smršť	
 talent: Healing Hands	Léčivé ruce	
 talent: Lightning Reflexes	Bleskové reflexy	
 talent: Mind Over Matter	Mysl nad hmotou	
+talent: Redirect	Přesměrování
+talent: Resonance	Rezonance
 talent: Tether	Pouto	
 talent: There Is No Try	Není žádné "zkusím"	
 
@@ -337,6 +338,7 @@ talent: Aegis	Égida
 talent: Authority	Autorita	
 talent: Challenge	Výzva	
 talent: Dauntless	Neohrožený	
+talent: Divine Blessing	Božské požehnání
 talent: Guardian	Ochránce	
 talent: Rebuke	Pokárání	
 
@@ -345,13 +347,13 @@ talent: Animal Companion	Zvířecí společník
 talent: Keen Senses	Ostré smysly	
 talent: Relentless	Neúnavný	
 talent: Scout Ahead	Průzkum	
-talent: Spot Weakness	Odhal slabinu	
+talent: Seasoned Hunter	Zkušený lovec
 talent: Sharpshooter	Ostrostřelec	
 talent: Trophies	Trofeje	
 
 talent: Expertise	Odbornost	
 talent: According to Plan	Podle plánu	
-talent: Cunning Actions	Vychytralé akce	
+talent: Distraction	Rozptýlení
 talent: Eldritch Affinity	Krev prastarého	
 talent: Lurker	Stín	
 talent: Opportunist	Oportunista	
@@ -367,12 +369,12 @@ talent: Spelleater	Pojídač kouzel
 talent: Wisps	Bludičky	
 talent: Wrath	Hněv	
 
-talent: Hex	Kletba	
+talent: Pact	Pakt
 talent: Affliction	Trýznivý dotek	
-talent: Eldritch Weaponry	Prastará zbraň	
+talent: Blood Rituals	Krvavé rituály
 talent: Knowing Gaze	Vědoucí pohled	
+talent: Magus	Mág
 talent: Otherworldly Form	Podoba z jiného světa	
-talent: Ritualist	Ritualista	
 talent: Visions	Vize	
 talent: Wayfarer	Poutník	
 
@@ -381,7 +383,7 @@ talent: Alchemist	Alchymista
 talent: Archivist	Archivář	
 talent: Component Pouch	Brašna s přísadami
 talent: Colleagues	Kolegové	
-talent: Familiar	Familiar	
+talent: Countermagic	Protikouzlo
 talent: Mastered Theorem	Zvládnutý teorém	
 talent: Specialty School	Specializovaná škola	
 
@@ -424,8 +426,10 @@ talent: Provoke	Provokace
 talent: The Legend Of...	Legenda o...	
 
 talent: Words of Power	Slova moci	
+talent: Ritualist	Ritualista
 talent: Bailiwick	Hájemství	
 talent: Evil Eye	Zlé oko	
+talent: Familiar	Familiar
 talent: Homely Hovel	Útulná chýše	
 talent: Soothsayer	Věštkyně	
 talent: Wonder Magnet	Magnet na zázraky	

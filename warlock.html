@@ -185,29 +185,24 @@
 
     <article class="sheet-page sheet-page--path" aria-label="Path page">
       <section class="sheet-panel path-panel">
-        <header class="panel-bar">
+        <header class="panel-bar cleric-path-heading">
           <p class="panel-bar-title">Warlock</p>
-          <p class="panel-bar-meta">Trackers</p>
+          <div class="path-header-field">
+            <p class="panel-bar-meta">Patron</p>
+            <span aria-hidden="true"></span>
+          </div>
         </header>
 
         <section class="panel-section core-talents">
           <p class="panel-bar-title">Core Talent</p>
           <div class="path-core-layout">
             <div class="path-copy path-copy--core">
-              <p><span class="talent-lead control control--pick-filled"></span><strong>Hex:</strong> You can roll Presence to hex someone with: confusion - desire - dread - lethargy - misfortune - pain. Decide when it takes place, or pick a trigger. Once per session, you can ask your patron for a potent hex for free, though each use thereafter carries an upfront cost, forcing you to: take harm - make a sacrifice - roll your patience pool. These are cosmic effects, and not fully under your control.</p>
-              <p>Your magic comes with strings attached, represented with an <strong>8d Patience pool</strong>. Your patron is fickle and expects you to serve their desires. They may lose patience from your requests for power, or when you otherwise displease them. At 0d, your patron will give you a visit to clear up the issue.</p>
-              <p>[Growth: 2 levels / +1 potent hex without cost per session]</p>
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Pact:</strong> You have magic bestowed by a patron, allowing you to make a story roll (usually 3d) to wield their magic as a weapon, or ask to channel a potent magical effect using their nature as the touchstone. They gift you an Eldritch Talent - a changeable path talent manifesting with your patron's trappings. Given time to commune, you can change an Eldritch Talent.</p>
+              <p>You also have an 8d Patience pool, representing service to your fickle patron's desires. Roll the pool when you ask for a potent magical effect, change an Eldritch Talent, or otherwise displease them. At 0d, your patron will give you a visit to clear up the issue, then the pool resets.</p>
+              <p>[Growth: At levels 3 and 6, gain +1 Eldritch Talent.]</p>
             </div>
             <aside class="tracker-panel tracker-panel--top-5_5">
               <div class="tracker-list" aria-hidden="true">
-                <div class="tracker-cluster">
-                  <p class="tracker-label">Potent</p>
-                  <div class="tracker-box-row">
-                    <span class="talent-checkbox"></span>
-                    <span class="talent-checkbox muted"></span>
-                    <span class="talent-checkbox muted"></span>
-                  </div>
-                </div>
                 <div class="tracker-cluster tracker-list--boxes">
                   <p class="tracker-label">Patience</p>
                   <div class="talent-pool"></div>
@@ -225,15 +220,15 @@
               <div class="path-copy talent-body">
                 <p><strong>Affliction:</strong> Once a session, you can place your hands on another to heal your harm by transferring the injury. Allies can roll defense to resist this effect. Talk with your GM about transferring other maladies, such as conditions.</p>
               </div>
-              <div class="talent-slot talent-slot--stack-center">
-                <span class="talent-tag-label">Aff.</span>
-                <span class="talent-pool" aria-hidden="true"></span>
+              <div class="talent-slot">
+                <span class="talent-checkbox" aria-hidden="true"></span>
+                <span>Use</span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Eldritch Weaponry:</strong> You can wield your magic as a weapon freely, using Wits or Presence. On a perfect, you can push yourself to also inflict a secondary effect (as a critical), using your patron's trappings as the touchstone.</p>
+                <p><strong>Magus:</strong> You can use your weapon as a touchstone, and add a magical weapon style, such as: flaming - returning - seeking. On a perfect with this weapon, you can push yourself to add a secondary effect based on the magical style. Given time, you can change the style.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
@@ -243,7 +238,7 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Knowing Gaze:</strong> When given time, you can learn: the price of their loyalty - their biggest fear - their greatest desire - their next move - what they're hiding - whom they serve. This gaze only works on someone once. You can push yourself to do this on the spot.</p>
+                <p><strong>Knowing Gaze:</strong> When given time, you can stare into someone's eyes and learn: the price of their loyalty - their biggest fear - their greatest desire - their next move - what they're hiding - whom they serve. This gaze only works on someone once. You can push yourself to do this on the spot.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
@@ -259,7 +254,7 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Ritualist:</strong> Take +1d on a ritual's invocation and replace any one of its anchors with yourself.</p>
+                <p><strong>Blood Rituals:</strong> Take +1d on a ritual's invocation and replace any one of its anchors with yourself. When you complete a ritual in this way, take spark.</p>
               </div>
             </article>
             <article class="talent-row">

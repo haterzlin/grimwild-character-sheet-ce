@@ -194,9 +194,9 @@
           <p class="panel-bar-title">Hlavní talent</p>
           <div class="path-core-layout">
             <div class="path-copy path-copy--core">
-              <p><span class="talent-lead control control--pick-filled"></span><strong>Mistrovství se zbraní:</strong> Vyber bojový styl, který ovládáš: beze zbraně - dvě zbraně - jednoruční - střelba - obouruční. Každou scénu máš 2 mistrovství. Když ve svém stylu bojuješ, bráníš se nebo pomáháš, máš +1 kostku; při komplikovaném nebo dokonalém výsledku můžeš utratit mistrovství a přidat kritický účinek.</p>
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Mistrovství se zbraní:</strong> Vyber bojový styl, který ovládáš: beze zbraně - dvě zbraně - jednoruční - střelba - obouruční. Když ve svém stylu bojuješ, bráníš se nebo pomáháš, máš +1 kostku. Každou scénu můžeš utratit 2 mistrovství a přidat tak kritický účinek.</p>
               <p>[Růst: 3 úrovně / +1 kostka mistrovství za scénu]</p>
-              <p><strong>Příklady manévrů:</strong> oslepit - odzbrojit - srazit - přišpendlit - přitáhnout - odstrčit - rozbít - znejistit.</p>
+              <p><strong>Příklady manévrů:</strong> oslepit - odzbrojit - srazit - přišpendlit - přitáhnout - odstrčit - rozdělit - znervóznit.</p>
             </div>
             <aside class="tracker-panel tracker-panel--top-6_5">
               <p class="tracker-label">Mistrovství</p>
@@ -216,13 +216,14 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Mystický výcvik:</strong> Umíš kouzlit jako s talentem Kouzlení. Za sezení můžeš seslat 2 kouzla a 1 mocné kouzlo. Znáš 3 teorémy kouzel vytvořené Kouzelným katalyzátorem a můžeš se učit nová kouzla ze svitků.</p>
+                <p><strong>Mystický výcvik:</strong> Umíš kouzlit jako s talentem Kouzlení. Za sezení můžeš seslat 3 kouzla a 1 mocné kouzlo. Znáš 3 teorémy kouzel vytvořené Kouzelným katalyzátorem a můžeš se učit nová kouzla ze svitků. (Zakázáno pro kouzelníka)</p>
               </div>
               <div class="talent-slot talent-slot--stack-stretch">
                 <div>
                   <span class="talent-checkbox"></span>
                   <span class="talent-checkbox"></span>
-                  <span>Kouz.</span>
+                  <span class="talent-checkbox"></span>
+                  <span>K.</span>
                 </div>
                 <div>
                   <span class="talent-checkbox"></span>
@@ -233,57 +234,53 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Ochrana:</strong> Každé sezení máš bank 2 kostek zdrojů ochrany ze zbroje nebo jiné obrany. Když utrpíš fyzickou újmu, můžeš hodit bank a újmu ignorovat.</p>
+                <p><strong>Záštita:</strong> Každé sezení máš bank 2 kostek zdrojů záštity ze zbroje nebo jiné obrany. Když utrpíš fyzickou újmu, můžeš hodit bank a újmu ignorovat.</p>
               </div>
               <div class="talent-slot talent-slot--stack-center">
-                <span class="talent-tag-label">Ochrana</span>
+                <span class="talent-tag-label">Záštita</span>
                 <span class="talent-pool" aria-hidden="true"></span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Kontrola:</strong> Můžeš se překonat a vyhlásit zónu, kterou nepřátelé nemohou překročit, aniž by se s tebou vypořádali. Pokud se pokusí projít kolem, můžeš je přerušit. Při dokonalém výsledku získej jiskru.</p>
+                <p><strong>Kontrola:</strong> Jednou za sezení můžeš vymezit prostor, který nepřátelé nemohou překročit, aniž by se nejdříve vypořádali s tebou. Pokud se pokusí projít kolem, můžeš je přerušit. Při dokonalém výsledku získej jiskru. Můžeš se překonat a udělat to znovu.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Překonat</span>
+                <span>Použít</span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Kryju ti záda:</strong> Můžeš se překonat a pomoct spojenci poté, co mu padne chmurný výsledek. Spojenec si může hodit i 1 kostkou. Při dokonalém výsledku oba získáte jiskru.</p>
+                <p><strong>Kryju ti záda:</strong> Jednou za sezení můžeš pomoct spojenci poté, co mu padne chmurný výsledek. Spojenec si může také hodit 1 kostkou. Při dokonalém výsledku oba získáte jiskru. Můžeš se překonat a udělat to znovu.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Překonat</span>
+                <span>Použít</span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Odměřené tóny:</strong> Když mluvíš odměřeně, lidé se vždy zastaví a poslouchají - můžeš vyhlásit nízké sázky. Nejsi-li úplně zaskočený, můžeš se překonat a přerušit určení následků spouštějící agresi. Když jim změníš názor, získej jiskru.</p>
-              </div>
-              <div class="talent-slot">
-                <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Překonat</span>
+                <p><strong>Odměřené tóny:</strong> Když mluvíš odměřeně, lidé se vždy zastaví a poslouchají - můžeš vyhlásit nízké sázky. Nejsi-li úplně zaskočený, můžeš se překonat a přerušit určení následků spouštějící agresi. Když se ti podaří změnit jejich názor, získáváš jiskru.</p>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Rychlé zotavení:</strong> Při dokonalém hodu neoznačenou vlastností smaž značku na jiné vlastnosti.</p>
+                <p><strong>Rychlé zotavení:</strong> Při dokonalém výsledku hodu vlastností bez značky, můžeš smazat značku na jiné vlastnosti.</p>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Taktik:</strong> Během vypjaté akční sekvence se můžeš překonat a hned označit 3 prvky scény a 1 později v sekvenci. Když spojenec pracuje s označeným prvkem, pomáháš mu bez rizika hodu. Není-li hod potřeba, získá jiskru.</p>
+                <p><strong>Taktik:</strong> Jednou za sezení během intenzivní akční sekvence označíš 3 prvky scény hned a 1 později. Když spojenec pracuje s označeným prvkem, můžeš mu pomoct bez sdílení rizika. Není-li hod potřeba, spojenec získá jiskru. Můžeš se překonat a udělat to znovu.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
-                <span>Překonat</span>
+                <span>Použít</span>
               </div>
             </article>
           </div>

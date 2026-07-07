@@ -185,29 +185,24 @@
 
     <article class="sheet-page sheet-page--path" aria-label="Strana cesty">
       <section class="sheet-panel path-panel">
-        <header class="panel-bar">
+        <header class="panel-bar cleric-path-heading">
           <p class="panel-bar-title">Černokněžník</p>
-          <p class="panel-bar-meta">Ukazatele</p>
+          <div class="path-header-field">
+            <p class="panel-bar-meta">Patron</p>
+            <span aria-hidden="true"></span>
+          </div>
         </header>
 
         <section class="panel-section core-talents">
           <p class="panel-bar-title">Hlavní talent</p>
           <div class="path-core-layout">
             <div class="path-copy path-copy--core">
-              <p><span class="talent-lead control control--pick-filled"></span><strong>Kletba:</strong> Hoď Charismem, když na někoho sesíláš kletbu: zmatek - touha - děs - malátnost - smůla - bolest. Urči, kdy se projeví, nebo vyber spouštěč. Jednou za sezení můžeš patrona požádat o mocnou kletbu zdarma; každé další použití však má cenu předem: utrpíš újmu - přineseš oběť - hodíš bankem trpělivosti. Jsou to kosmické účinky a nemáš je plně pod kontrolou.</p>
-              <p>S tvou magií se pojí závazky vyjádřené jako <strong>bank 8 kostek trpělivosti</strong>. Tvůj patron je vrtkavý a očekává, že budeš sloužit jeho touhám. Může ztrácet trpělivost kvůli tvým žádostem o moc nebo když ho jinak zklameš. Když bank klesne na 0 kostek, patron tě navštíví, aby si věc vyjasnil.</p>
-              <p>[Růst: 2 úrovně / +1 mocná kletba bez ceny za sezení]</p>
+              <p><span class="talent-lead control control--pick-filled"></span><strong>Pakt:</strong> Máš magii propůjčenou patronem; můžeš hodem na příběh (obvykle 3 kostkami) vládnout jeho magií jako zbraní, nebo požádat o usměrnění mocného magického účinku s jeho povahou jako ohniskem. Patron ti daruje prastarý talent - proměnlivý talent cesty projevující se jeho rysy. Když máš čas na rozmluvu, můžeš prastarý talent změnit.</p>
+              <p>Máš také bank 8 kostek trpělivosti vyjadřující službu vrtkavým touhám patrona. Hoď bankem, když žádáš o mocný magický účinek, měníš prastarý talent nebo patrona jinak zklameš. Když bank klesne na 0 kostek, patron tě navštíví, aby si věc vyjasnil, a bank se obnoví.</p>
+              <p>[Růst: Na úrovních 3 a 6 získej +1 prastarý talent.]</p>
             </div>
             <aside class="tracker-panel tracker-panel--top-5_5">
               <div class="tracker-list" aria-hidden="true">
-                <div class="tracker-cluster">
-                  <p class="tracker-label">Mocná</p>
-                  <div class="tracker-box-row">
-                    <span class="talent-checkbox"></span>
-                    <span class="talent-checkbox muted"></span>
-                    <span class="talent-checkbox muted"></span>
-                  </div>
-                </div>
                 <div class="tracker-cluster tracker-list--boxes">
                   <p class="tracker-label">Trpělivost</p>
                   <div class="talent-pool"></div>
@@ -225,15 +220,15 @@
               <div class="path-copy talent-body">
                 <p><strong>Trýznivý dotek:</strong> Jednou za sezení můžeš položit ruce na jiného a vyléčit si újmu přenesením zranění. Spojenci si mohou hodit na obranu, aby účinku odolali. Domluv se s vypravěčem na přenosu jiných neduhů, třeba stavů.</p>
               </div>
-              <div class="talent-slot talent-slot--stack-center">
-                <span class="talent-tag-label">Trýz.</span>
-                <span class="talent-pool" aria-hidden="true"></span>
+              <div class="talent-slot">
+                <span class="talent-checkbox" aria-hidden="true"></span>
+                <span>Použít</span>
               </div>
             </article>
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Prastará zbraň:</strong> Můžeš volně vládnout svou magií jako zbraní, pomocí Důvtipu nebo Charismatu. Při dokonalém výsledku se můžeš překonat a způsobit i vedlejší účinek (jako při kritickém úspěchu), s rysy patrona jako ohniskem.</p>
+                <p><strong>Mág:</strong> Můžeš použít svou zbraň jako ohnisko a přidat jí magický styl, třeba: plamenná - vracející se - hledající. Při dokonalém výsledku s touto zbraní se můžeš překonat a přidat vedlejší účinek podle magického stylu. Když máš čas, můžeš styl změnit.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
@@ -243,7 +238,7 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Vědoucí pohled:</strong> Když máš čas, můžeš o někom zjistit: cenu jeho loajality - největší strach - největší touhu - další tah - co skrývá - komu slouží. Tento pohled na někoho funguje jen jednou. Můžeš se překonat a použít ho hned.</p>
+                <p><strong>Vědoucí pohled:</strong> Když máš čas, můžeš se někomu zadívat do očí a zjistit: cenu jeho loajality - největší strach - největší touhu - další tah - co skrývá - komu slouží. Tento pohled na někoho funguje jen jednou. Můžeš se překonat a použít ho hned.</p>
               </div>
               <div class="talent-slot">
                 <span class="talent-checkbox" aria-hidden="true"></span>
@@ -259,7 +254,7 @@
             <article class="talent-row">
               <div class="talent-picker control control--pick" aria-hidden="true"></div>
               <div class="path-copy talent-body">
-                <p><strong>Ritualista:</strong> Máš +1 kostku k vzývání rituálu a můžeš jednu z jeho kotev nahradit sebou.</p>
+                <p><strong>Krvavé rituály:</strong> Máš +1 kostku k vzývání rituálu a můžeš jednu z jeho kotev nahradit sebou. Když tímto způsobem rituál dokončíš, získej jiskru.</p>
               </div>
             </article>
             <article class="talent-row">
