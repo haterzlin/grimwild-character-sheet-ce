@@ -320,7 +320,7 @@ talent: Arcane Training	Mystický výcvik
 talent: Bulwark	Záštita	
 talent: Control	Kontrola	
 talent: Got Your Back	Kryju ti záda	
-talent: Measured Tones	Odměřené tóny	
+talent: Measured Tones	Autoritativní hlas	
 talent: Swift Recovery	Rychlé zotavení	
 talent: Tactician	Taktik	
 
