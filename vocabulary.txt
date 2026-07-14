@@ -236,7 +236,7 @@ omens	znamení
 bulwark	záštita
 competence	kompetence	
 quarry	kořist / cíl lovu	
-flow	proudění	
+flow	rovnováha	
 smite	trestající rána / boží zásah	
 hex	kletba / uhranutí	
 patience	trpělivost	
