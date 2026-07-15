@@ -329,7 +329,7 @@ talent: Healing Hands	Léčivé ruce
 talent: Lightning Reflexes	Bleskové reflexy	
 talent: Mind Over Matter	Mysl nad hmotou	
 talent: Redirect	Přesměrování
-talent: Resonance	Rezonance
+talent: Resonance	Souznění
 talent: Tether	Pouto	
 talent: There Is No Try	Není žádné "zkusím"	
 
