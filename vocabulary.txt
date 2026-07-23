@@ -403,7 +403,7 @@ talent: Trap Making	Výroba pastí
 talent: Wandslinger	Mistr hůlky	
 
 talent: Awakened Mind	Probuzená mysl	
-talent: Echo	Ozvěna	
+talent: Echo	Odraz	
 talent: Foresight	Předtucha	
 talent: Mind Blast	Mentální výbuch	
 talent: Psychic Warrior	Psychický válečník	
