@@ -119,7 +119,7 @@ marks	oslabení
 harm	újma	
 bloodied	krvácení	Fyzická újma.
 rattled	otřesení	Psychická nebo emocionální újma.
-desperate	na hraně	Krajní stav před vyřazením.
+desperate	zoufalství	Krajní stav před vyřazením.
 dropped	vyřazený	Mimo scénu.
 vex	rozrušení	Silná emoce s okamžitou reakcí.
 condition	stav	
