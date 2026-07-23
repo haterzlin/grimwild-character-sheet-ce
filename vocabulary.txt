@@ -340,7 +340,7 @@ talent: Challenge	Výzva
 talent: Dauntless	Neohrožený	
 talent: Divine Blessing	Božské požehnání
 talent: Guardian	Ochránce	
-talent: Rebuke	Pokárání	
+talent: Rebuke	Odplata	
 
 talent: Quarry	Kořist	
 talent: Animal Companion	Zvířecí společník	
