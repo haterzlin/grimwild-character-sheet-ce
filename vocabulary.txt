@@ -13,8 +13,8 @@ defense roll	hod na obranu
 story roll	hod na příběh
 montage roll	montážní hod	
 result	výsledek	
-critical	kritický úspěch	
-perfect	dokonalý	
+critical	mimořádný úspěch	
+perfect	čistý úspěch	
 messy	komplikovaný
 grim	chmurný	Výsledek je neúspěch s potížemi.
 disaster	katastrofa	
@@ -31,7 +31,7 @@ tangle	komplikace / zádrhel	Na kartě: "introduce a tangle" = "zkomplikuj situa
 spark	jiskra	Herní zdroj protagonistické energie.
 assist	vypomoct / pomoct	V akci spíše "pomoc".
 setup	příprava / nahrávka	Mechanicky vytváří výhodu pro navazující akci.
-critical bonus	kritický bonus	
+critical bonus	mimořádný bonus	
 greater effect	větší účinek	
 secondary effect	vedlejší účinek	
 working together	spolupráce	
