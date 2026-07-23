@@ -220,28 +220,19 @@ NEW_EN_PANELS = {
               <p>[Growth: At levels 3 and 6, gain +1 instability slot at 0d, and +1 bastion.]</p>
             </div>
             <aside class="tracker-panel tracker-panel--top-2_5">
-              <div class="tracker-list" aria-hidden="true">
-                <div class="tracker-cluster">
-                  <p class="tracker-label">+0t</p>
-                  <div class="tracker-box-row">
-                    <span class="talent-checkbox"></span>
-                    <span class="talent-checkbox muted"></span>
-                    <span class="talent-checkbox muted"></span>
-                  </div>
-                </div>
-                <div class="tracker-cluster">
-                  <p class="tracker-label">+1t</p>
-                  <div class="tracker-box-row">
-                    <span class="talent-checkbox"></span>
-                  </div>
-                </div>
-                <div class="tracker-cluster">
-                  <p class="tracker-label">+2t</p>
-                  <div class="tracker-box-row">
-                    <span class="talent-checkbox"></span>
-                  </div>
-                </div>
-              </div>
+              <svg class="psion-instability-tracker" viewBox="0 0 126 116" aria-hidden="true">
+                <path class="psion-instability-arrow" d="M5 4v96"></path>
+                <path class="psion-instability-arrow-head" d="M0 96h10l-5 14z"></path>
+                <path class="psion-instability-slot" d="M16 6h28L30 39z"></path>
+                <path class="psion-instability-slot muted" d="M46 6h28L60 39z"></path>
+                <path class="psion-instability-slot muted" d="M76 6h28L90 39z"></path>
+                <path class="psion-instability-slot" d="M31 42h28L45 75z"></path>
+                <path class="psion-instability-slot" d="M61 42h28L75 75z"></path>
+                <path class="psion-instability-slot" d="M46 78h28L60 111z"></path>
+                <text x="107" y="28">+0t</text>
+                <text x="92" y="64">+1t</text>
+                <text x="77" y="100">+2t</text>
+              </svg>
             </aside>
           </div>
         </section>

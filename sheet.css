@@ -968,6 +968,43 @@ ul {
   gap: 3.2mm;
 }
 
+.psion-instability-tracker {
+  display: block;
+  width: 32mm;
+  max-width: 100%;
+  margin: 1mm auto 0;
+  overflow: visible;
+}
+
+.psion-instability-slot {
+  fill: var(--page-bg);
+  stroke: var(--line);
+  stroke-linejoin: miter;
+  stroke-width: 2;
+}
+
+.psion-instability-slot.muted {
+  stroke: rgba(34, 34, 34, 0.45);
+}
+
+.psion-instability-arrow {
+  fill: none;
+  stroke: rgba(34, 34, 34, 0.35);
+  stroke-linecap: square;
+  stroke-width: 3;
+}
+
+.psion-instability-arrow-head {
+  fill: rgba(34, 34, 34, 0.35);
+}
+
+.psion-instability-tracker text {
+  fill: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .tracker-segments {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
