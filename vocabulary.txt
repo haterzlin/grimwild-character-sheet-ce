@@ -114,8 +114,8 @@ you don't	nechceš
 
 # Damage and conditions
 damage and recovery	zranění a zotavení	
-mark	značka	Lehké dočasné postižení.
-marks	značky	
+mark	oslabení	Lehké dočasné postižení vlastnosti; "mark your stat/attribute" = vezmi si oslabení vlastnosti.
+marks	oslabení	
 harm	újma	
 bloodied	zakrvácený	Fyzická újma.
 rattled	otřesený	Psychická nebo emocionální újma.
