@@ -1365,6 +1365,14 @@ ul {
   text-align: right;
 }
 
+.sheet-nav-link--lang {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  min-width: 44px;
+  justify-content: center;
+}
+
 .sheet-nav-link:hover,
 .sheet-nav-link:focus-visible {
   background: var(--bar-bg);
