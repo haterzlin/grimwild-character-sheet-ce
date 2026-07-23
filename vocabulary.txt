@@ -218,7 +218,7 @@ example of play	ukázka hry
 thread	zápletka	Meta-currency formerly called "story".
 threads	zápletky	
 spend thread	vnést zápletku	Odvozeno od potvrzeného termínu "thread".
-take spark	získej jiskru	
+take spark	získáš jiskru	
 interrupt	přerušení / přerušit	Mechanická akce; je třeba sjednotit jako sloveso nebo podst. jméno.
 push	překonat se	
 push yourself	překonat se	
