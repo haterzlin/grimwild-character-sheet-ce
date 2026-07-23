@@ -409,7 +409,7 @@ talent: Mind Blast	Mentální výbuch
 talent: Psychic Warrior	Psychický válečník	
 talent: Reader	Čtenář	
 talent: Tumultuous Mind	Bouřlivá mysl	
-talent: Shift Form	Proměna podoby	
+talent: Shift Form	Změna podoby	
 
 talent: Vassal	Vazal	
 talent: Binding Word	Svazující slovo	
