@@ -117,8 +117,8 @@ damage and recovery	zranění a zotavení
 mark	oslabení	Lehké dočasné postižení vlastnosti; "mark your stat/attribute" = vezmi si oslabení vlastnosti.
 marks	oslabení	
 harm	újma	
-bloodied	zakrvácený	Fyzická újma.
-rattled	otřesený	Psychická nebo emocionální újma.
+bloodied	krvácení	Fyzická újma.
+rattled	otřesení	Psychická nebo emocionální újma.
 desperate	na hraně	Krajní stav před vyřazením.
 dropped	vyřazený	Mimo scénu.
 vex	rozrušení	Silná emoce s okamžitou reakcí.
