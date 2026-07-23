@@ -122,6 +122,11 @@ rattled	otřesení	Psychická nebo emocionální újma.
 desperate	zoufalství	Krajní stav před vyřazením.
 dropped	vyřazený	Mimo scénu.
 vex	rozrušení	Silná emoce s okamžitou reakcí.
+vex response	reakce rozrušení	
+vex: Fight	útok	
+vex: Flight	útěk	
+vex: Freeze	ztuhnutí	
+vex: Freakout	zkrat	
 condition	stav	
 conditions	stavy	
 daunted	zastrašený / znejistěný	Podle kontextu.
