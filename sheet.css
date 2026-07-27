@@ -1026,8 +1026,8 @@ ul {
 }
 
 .tracker-box-row {
-  display: grid;
-  grid-template-columns: repeat(3, 6.2mm);
+  display: flex;
+  align-items: center;
   justify-content: center;
   gap: 1.8mm;
 }
@@ -1241,6 +1241,13 @@ ul {
   align-items: stretch;
   justify-content: center;
   gap: 1.2mm;
+}
+
+.talent-slot--stack-stretch > div {
+  display: flex;
+  align-items: center;
+  gap: 1.2mm;
+  line-height: 1;
 }
 
 .talent-tag-elements {
