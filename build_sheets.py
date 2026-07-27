@@ -725,10 +725,12 @@ def nav(lang: str, slug: str) -> str:
     next_slug = slugs[(index + 1) % len(slugs)]
     other_href = f"cs/{slug}.html" if lang == "en" else f"../{slug}.html"
     other_label = "CS" if lang == "en" else "EN"
+    script_src = "sheet-nav.js" if lang == "en" else "../sheet-nav.js"
     return f"""  <nav class="sheet-nav" aria-label="{meta["nav"]}">
     <a class="sheet-nav-link" href="{prev_slug}.html" rel="prev">&larr; {meta["prev"]}: {meta["names"][prev_slug]}</a>
     <a class="sheet-nav-link sheet-nav-link--next" href="{next_slug}.html" rel="next">{meta["next"]}: {meta["names"][next_slug]} &rarr;</a>
     <a class="sheet-nav-link sheet-nav-link--lang" href="{other_href}" rel="alternate">{other_label}</a>
+    <script src="{script_src}"></script>
   </nav>"""
 
 
