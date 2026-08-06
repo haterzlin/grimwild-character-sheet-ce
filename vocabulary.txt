@@ -31,6 +31,7 @@ tangle	komplikace / zádrhel	Na kartě: "introduce a tangle" = "zkomplikuj situa
 spark	jiskra	Herní zdroj protagonistické energie.
 assist	vypomoct / pomoct	V akci spíše "pomoc".
 setup	příprava / příprava půdy	Mechanicky vytváří výhodu pro navazující akci; ve větách používej také "připravit půdu".
+spotlight	hlavní role	Čas a pozornost soustředěné na postavu; "pass the spotlight" = "předat hlavní roli".
 critical bonus	mimořádný bonus	
 greater effect	větší účinek	
 secondary effect	vedlejší účinek	
