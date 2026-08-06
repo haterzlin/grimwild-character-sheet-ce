@@ -426,7 +426,7 @@ talent: Shared Soul	Sdílená duše
 talent: Panache	Švih	
 talent: Quick Wit	Pohotový vtip	
 talent: Audacity	Drzost	
-talent: Fancy Footwork	Elegantní kroky	
+talent: Fancy Footwork	Obratná práce nohou	
 talent: Improvise	Improvizace	
 talent: Lucky	Štístko	
 talent: Natural Moxie	Přirozená kuráž	
