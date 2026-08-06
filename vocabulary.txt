@@ -30,7 +30,7 @@ cut	snížení	V pravidlech znamená zhrošení výsledku o jeden stupeň.
 tangle	komplikace / zádrhel	Na kartě: "introduce a tangle" = "zkomplikuj situaci".
 spark	jiskra	Herní zdroj protagonistické energie.
 assist	vypomoct / pomoct	V akci spíše "pomoc".
-setup	příprava / nahrávka	Mechanicky vytváří výhodu pro navazující akci.
+setup	příprava / příprava půdy	Mechanicky vytváří výhodu pro navazující akci; ve větách používej také "připravit půdu".
 critical bonus	mimořádný bonus	
 greater effect	větší účinek	
 secondary effect	vedlejší účinek	
