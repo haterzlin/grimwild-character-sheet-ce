@@ -416,9 +416,9 @@ talent: Shift Form	Změna podoby
 
 talent: Vassal	Vazal	
 talent: Binding Word	Svazující slovo	
-talent: Fierce Protector	Divoký ochránce	
-talent: Ley Magic	Magie ley linií	
-talent: Monster Menagerie	Bestiář	
+talent: Fierce Protector	Osobní strážce	
+talent: Ley Magic	Tkaní siločar	
+talent: Monster Menagerie	Zvěřinec	
 talent: Pocket Plane	Kapesní sféra	
 talent: Portal Network	Síť portálů	
 talent: Shared Soul	Sdílená duše	
