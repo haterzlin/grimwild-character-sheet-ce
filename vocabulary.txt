@@ -360,14 +360,16 @@ talent: Trophies	Trofeje
 talent: Expertise	Odbornost	
 talent: According to Plan	Podle plánu	
 talent: Distraction	Rozptýlení
-talent: Eldritch Affinity	Prastaré nadání	
+talent: Eldritch Affinity	Nadání Prastarých	
 talent: Lurker	Jako stín	
 talent: Opportunist	Oportunista	
 talent: Poisoner	Travič	
 talent: Weasel	Lasička	
 
 talent: Sorcery	Čarodějnictví	
-talent: Eldritch Growth	Prastará mutace
+talent: Eldritch Growth	Proměna Prastarých
+talent: Eldritch Weaponry	Výzbroj Prastarých
+talent: Eldritch Talent	Talent Prastarých
 talent: Maelstrom	Vír	
 talent: Magic Sense	Vnímání magie	
 talent: Metamagic	Metamagie	
