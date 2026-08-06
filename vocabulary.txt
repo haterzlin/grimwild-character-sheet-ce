@@ -360,11 +360,11 @@ talent: Trophies	Trofeje
 talent: Expertise	Odbornost	
 talent: According to Plan	Podle plánu	
 talent: Distraction	Rozptýlení
-talent: Eldritch Affinity	Krev prastarého	
-talent: Lurker	Stín	
+talent: Eldritch Affinity	Prastaré nadání	
+talent: Lurker	Jako stín	
 talent: Opportunist	Oportunista	
 talent: Poisoner	Travič	
-talent: Weasel	Vykroutit se	
+talent: Weasel	Lasička	
 
 talent: Sorcery	Čarodějnictví	
 talent: Eldritch Growth	Prastará mutace
