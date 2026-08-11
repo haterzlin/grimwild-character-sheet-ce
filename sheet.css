@@ -580,12 +580,6 @@ ul {
   height: 4.8mm;
 }
 
-.control-cell.muted {
-  opacity: 1;
-  background: #ececec;
-  border-left-color: rgba(34, 34, 34, 0.35);
-}
-
 .traits-columns li::before {
   content: "";
   position: absolute;
@@ -1069,7 +1063,7 @@ ul {
   width: 12mm;
 }
 
-.tracker-segments--wizard:has(.control-cell.muted) {
+.tracker-segments--wizard:has(.muted) {
   border-color: rgba(34, 34, 34, 0.35);
 }
 
