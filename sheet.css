@@ -557,7 +557,7 @@ ul {
 }
 
 .muted {
-  opacity: 0.45;
+  border-color: rgba(34, 34, 34, 0.45);
 }
 
 .control-cell {
