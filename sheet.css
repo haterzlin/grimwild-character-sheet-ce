@@ -542,12 +542,19 @@ ul {
   flex: 0 0 auto;
 }
 
-.talent-pool,
-.experience-grid > div > span {
+.talent-pool {
   width: 9mm;
   height: 9mm;
   border: 2px solid var(--line);
   border-radius: 2mm;
+  background: var(--page-bg);
+}
+
+.experience-grid > div > span {
+  width: 5.2mm;
+  height: 5.2mm;
+  border: 2px solid var(--line);
+  border-radius: 1mm;
   background: var(--page-bg);
 }
 
@@ -578,12 +585,6 @@ ul {
   opacity: 1;
   background: #ececec;
   border-left-color: rgba(34, 34, 34, 0.35);
-}
-
-.experience-grid > div > span {
-  width: 5.2mm;
-  height: 5.2mm;
-  border-radius: 2mm;
 }
 
 .traits-columns li::before {
