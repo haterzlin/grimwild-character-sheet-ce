@@ -436,8 +436,8 @@ talent: The Legend Of...	Legenda o...
 talent: Words of Power	Slova moci	
 talent: Ritualist	Ritualista
 talent: Bailiwick	Hájemství	
-talent: Evil Eye	Zlé oko	
+talent: Evil Eye	Zlý pohled	
 talent: Familiar	Familiar
 talent: Homely Hovel	Útulná chýše	
-talent: Soothsayer	Věštkyně	
+talent: Soothsayer	Spiritista	
 talent: Wonder Magnet	Magnet na zázraky	
