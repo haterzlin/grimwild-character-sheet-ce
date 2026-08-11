@@ -1205,7 +1205,7 @@ ul {
   display: inline-flex;
   align-items: center;
   align-self: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1.8mm;
   width: calc(100% + var(--talent-entry-pad-x));
   min-height: 6mm;
