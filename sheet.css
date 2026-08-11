@@ -515,6 +515,8 @@ ul {
   --control-border-width: 0;
   --control-radius: 50%;
   --control-bg: var(--line);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .control--track {
@@ -752,6 +754,7 @@ ul {
   align-items: stretch;
   min-height: calc(11pt * 1.25 + (2 * var(--title-pad-y)));
   padding: 0;
+  border-bottom: 1px solid var(--line);
   background: var(--bar-bg);
   color: var(--bar-fg);
 }
@@ -767,7 +770,7 @@ ul {
 }
 
 .panel-bar-split + .panel-bar-split {
-  border-left: 1px solid var(--page-bg);
+  border-left: 1px solid var(--line);
 }
 
 .traits-panel-bar .panel-bar-title {
