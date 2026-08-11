@@ -99,7 +99,6 @@ ul {
 
 .sheet-identity {
   display: grid;
-  grid-template-columns: 1fr;
   gap: var(--panel-gap);
 }
 
@@ -136,7 +135,6 @@ ul {
   border: 1px solid var(--line);
   display: flex;
   flex-direction: column;
-  gap: 0;
   overflow: hidden;
   background: var(--page-bg);
   min-height: 0;
@@ -207,7 +205,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1mm;
-  padding: 0 var(--panel-pad) 0;
+  padding: 0 var(--panel-pad);
 }
 
 .attribute-column {
@@ -274,7 +272,6 @@ ul {
   align-items: start;
   gap: 2mm;
   padding: 4mm 6mm 0;
-  margin-top: 0;
 }
 
 .attribute-statuses > div {
@@ -695,13 +692,7 @@ ul {
   row-gap: 0.8mm;
 }
 
-.experience-grid > div:first-child {
-  display: flex;
-  align-items: center;
-  gap: 1.2mm;
-}
-
-.experience-grid > div:not(:first-child) {
+.experience-grid > div {
   display: flex;
   align-items: center;
   gap: 1.2mm;
@@ -851,7 +842,6 @@ ul {
   display: inline-block;
   width: 42mm;
   height: 8.2mm;
-  border: 0px solid var(--line);
   border-radius: 3mm;
   background: var(--page-bg);
 }
@@ -1237,10 +1227,6 @@ ul {
 .talent-tag-double-box {
   display: inline-flex;
   gap: 2mm;
-}
-
-.slot-row--wide {
-  gap: 1.8mm;
 }
 
 .talent-slot--stack-center {
