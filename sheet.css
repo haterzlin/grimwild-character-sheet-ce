@@ -706,6 +706,19 @@ ul {
   gap: 1.2mm;
 }
 
+.experience-grid > div > span:last-of-type {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(34, 34, 34, 0.55);
+}
+
+.experience-grid > div > span:last-of-type::after {
+  content: "+";
+  position: relative;
+  top: -0.2mm;
+}
+
 .path-panel {
   min-height: 0;
   flex: 3 1 0;
