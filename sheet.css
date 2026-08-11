@@ -840,6 +840,7 @@ ul {
   display: inline-block;
   width: 42mm;
   height: 8.2mm;
+  border: 1px solid var(--line);
   border-radius: 3mm;
   background: var(--page-bg);
 }
@@ -1142,6 +1143,7 @@ ul {
 
 .rite-line {
   height: 10mm;
+  border: 1px solid var(--line);
   border-radius: 0 0 2mm 2mm;
   background: var(--page-bg);
 }
