@@ -102,7 +102,7 @@ story arcs	příběhové linky
 group arc	skupinová linka	
 character arc	osobní linka	
 character	postava	
-weapon style	styl zbraně	
+weapon style	bojový styl	
 detail	detail	
 set dressing	dokreslení fikce	
 story detail	příběhový detail	
