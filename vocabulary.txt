@@ -234,9 +234,9 @@ frenzy	berserk / zuřivost	Je třeba vybrat finální styl.
 wild shape	zvířecí podoba	
 wild shape pool	bank kostek proměny
 mastery	mistrovství	
-rites	obřady / rituály
-rite	obřad / rituál
-rite pool	bank kostek pro rituál
+rites	sféry moci
+rite	sféra moci
+rite pool	bank sféry moci
 omen	znamení	
 omens	znamení	
 bulwark	záštita
