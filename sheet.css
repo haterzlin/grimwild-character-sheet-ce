@@ -858,6 +858,8 @@ ul {
   border: 1px solid var(--line);
   border-radius: 3mm;
   background: var(--page-bg);
+  color: var(--text);
+  padding-left: 2mm;
 }
 
 .panel-section {
@@ -1161,6 +1163,7 @@ ul {
   border: 1px solid var(--line);
   border-radius: 0 0 2mm 2mm;
   background: var(--page-bg);
+  padding: 1mm 2mm;
 }
 
 .talent-list {
@@ -1290,9 +1293,7 @@ ul {
 
 .talent-inset > p {
   font-size: 10pt;
-  font-weight: 700;
-  font-variant-caps: small-caps;
-  letter-spacing: 0.08em;
+  font-style: italic;
 }
 
 .paladin-bottom {
