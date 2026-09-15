@@ -185,7 +185,7 @@ ul {
   background: var(--page-bg);
 }
 
-.sheet-panel > .panel-bar-title + p {
+.sheet-panel > .panel-bar-title ~ p {
   margin: 1mm 2mm;
 }
 
