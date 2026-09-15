@@ -181,7 +181,12 @@ ul {
 
 .sheet-field-body {
   margin: 0.5mm 2mm 2mm;
+  padding-top: 4mm;
   background: var(--page-bg);
+}
+
+.sheet-panel > .panel-bar-title + p {
+  margin: 1mm 2mm;
 }
 
 .sheet-identity > .sheet-field:first-child .sheet-field-body {
